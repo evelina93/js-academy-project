@@ -1,0 +1,13 @@
+<div class="prod-wrapper">
+    <img class="prod-image" ng-src="{{ product.image }}"/>
+    <span class="prod-pret">{{ product.price }}  lei</span>
+    <h4 class="prod-name"> {{ product.name }} </h4>
+    <ul class="prod-det-container">
+        <li>
+            <div class="prod-det-name">Weight:</div>
+            <div class="prod-det-value">{{ product.weight }}</div>
+        </li>
+    </ul>
+    <p class="prod-description">{{ product.description }}</p>
+    <button class="addButton" ng-click="addToCart()">Add to cart</button>
+</div>

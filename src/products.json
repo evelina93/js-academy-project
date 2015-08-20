@@ -1,0 +1,97 @@
+[
+  {
+    "type": "wine",
+    "id": 11111,
+    "price": 30,
+    "name": "Pinot",
+    "description": "A good pinot wine",
+    "volume": 2,
+    "producer": "Sonoma",
+    "image": "http://redvanilla.com/images/HOL41-363%20(2).jpg"
+  },  {
+    "type": "wine",
+    "id": 11112,
+    "price": 35,
+    "name": "Roze",
+    "description": "A good roze wine",
+    "volume": 2,
+    "producer": "Sonoma",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5Um1wDEJy2twG5pxjCHQy3Wq6PJNdiqHIcLZjBaCv_0zb92hn"
+  }, {
+    "type": "book",
+    "id": 11113,
+    "price": 80,
+    "name": "Harry Potter 1",
+    "description": "A book about wizards",
+    "weight": 1,
+    "pages": 500,
+    "author": "J. K. Rowling",
+    "image": "http://img2.wikia.nocookie.net/__cb20101208171110/harrypotter/images/0/0e/Philostone.jpg"
+  }, {
+    "type": "book",
+    "id": 11114,
+    "price": 120,
+    "name": "Harry Potter 2",
+    "description": "A book about wizards",
+    "weight": 1,
+    "pages": 320,
+    "author": "J. K. Rowling",
+    "image": "http://ecx.images-amazon.com/images/I/51iQ568dsGL._SY344_BO1,204,203,200_.jpg"
+  }, {
+    "type": "wine",
+    "id": 11115,
+    "price": 30,
+    "name": "Pinot",
+    "description": "A good pinot wine",
+    "volume": 2,
+    "producer": "Sonoma",
+    "image": "http://redvanilla.com/images/HOL41-363%20(2).jpg"
+  },  {
+    "type": "wine",
+    "id": 11116,
+    "price": 35,
+    "name": "Roze",
+    "description": "A good roze wine",
+    "volume": 2,
+    "producer": "Sonoma",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5Um1wDEJy2twG5pxjCHQy3Wq6PJNdiqHIcLZjBaCv_0zb92hn"
+  }, {
+    "type": "book",
+    "id": 11117,
+    "price": 80,
+    "name": "Harry Potter 1",
+    "description": "A book about wizards",
+    "weight": 1,
+    "pages": 500,
+    "author": "J. K. Rowling",
+    "image": "http://img2.wikia.nocookie.net/__cb20101208171110/harrypotter/images/0/0e/Philostone.jpg"
+  }, {
+    "type": "book",
+    "id": 11118,
+    "price": 120,
+    "name": "Harry Potter 2",
+    "description": "A book about wizards",
+    "weight": 1,
+    "pages": 320,
+    "author": "J. K. Rowling",
+    "image": "http://ecx.images-amazon.com/images/I/51iQ568dsGL._SY344_BO1,204,203,200_.jpg"
+  }, {
+    "type": "wine",
+    "id": 11119,
+    "price": 30,
+    "name": "Pinot",
+    "description": "A good pinot wine",
+    "volume": 2,
+    "producer": "Sonoma",
+    "image": "http://redvanilla.com/images/HOL41-363%20(2).jpg"
+  },  {
+    "type": "wine",
+    "id": 11120,
+    "price": 35,
+    "name": "Roze",
+    "description": "A good roze wine",
+    "volume": 2,
+    "producer": "Sonoma",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5Um1wDEJy2twG5pxjCHQy3Wq6PJNdiqHIcLZjBaCv_0zb92hn"
+  }
+]
