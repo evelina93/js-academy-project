@@ -59,7 +59,7 @@ gulp.task("html", function(){
 gulp.task("compile", function () {
     return gulp.src("./src/scripts/app.js")
         .pipe(gulpWebpack({
-            devtool: '#inline-source-map',
+            //devtool: '#inline-source-map',
             module: {
                 loaders: [
                     {
