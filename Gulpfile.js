@@ -18,7 +18,7 @@ var rename = require("gulp-rename");
 var server = function (paths, port) {
     var app, i, len, p;
     if (port == null) {
-        port = 9000;
+        port = 9001;
     }
     app = connect().use(connectLR()).use(function (req, res, next) {
         var filename, found, i, len, p;
@@ -59,6 +59,7 @@ gulp.task("html", function(){
 gulp.task("compile", function () {
     return gulp.src("./src/scripts/app.js")
         .pipe(gulpWebpack({
+            devtool: '#inline-source-map',
             module: {
                 loaders: [
                     {
@@ -66,7 +67,7 @@ gulp.task("compile", function () {
                         loader: 'babel-loader?stage=0'
                     },{
                         test: /\.html$/,
-                        loader: "ngtemplate?relativeTo=" + (path.resolve(__dirname, './src')) + "/!html"
+                        loader: "ngtemplate?relativeTo=" + (path.resolve(__dirname, './src')) + "/!html?root=./src"
                     }
                 ]
             }

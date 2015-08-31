@@ -1,15 +1,15 @@
-export default angular.module('state.home', [])
+export default angular.module('state.casino', [])
     .config(['$stateProvider', function ($stateProvider) {
-        $stateProvider.state("home", {
-            url: '/',
+        $stateProvider.state("casino", {
+            url: '/casino',
             views: {
                 header: {
                     templateUrl: require('../partials/header.html')
                 },
                 content: {
-                    templateUrl: require('./home.html'),
+                    templateUrl: require('./casino.html'),
                     controller: function(){
-                        console.log('loaded')
+                        console.log('casino loaded')
                     }
                 },
                 footer: {

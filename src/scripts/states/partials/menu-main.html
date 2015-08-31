@@ -1,0 +1,62 @@
+<a class="Button MenuButton" title="Open NextCasino's main menu">
+    <strong class="ButtonText">Menu</strong>
+    <span class="icon i-menu" aria-hidden="true"></span>
+</a>
+<ul class="Menu MainMenu">
+    <li class="MenuItem">
+        <a class="MenuLink" ui-sref="home" title="Visit NextCasino's homepage now">
+            <span class="ButtonText">Home</span>
+        </a>
+    </li>
+    <li class="MenuItem">
+        <a class="MenuLink" ui-sref="casino" title="See the entire list of our Casino games">
+            <span class="ButtonText">Casino</span>
+        </a>
+    </li>
+    <li class="MenuItem">
+        <a class="MenuLink" ui-sref="promotions" title="Review our promotions and find out what we can offer you">
+            <span class="ButtonText">Promotions</span>
+        </a>
+    </li>
+    <li class="MenuItem">
+        <a class="MenuLink" ui-sref="contact" title="Get in touch with the NextCasino team">
+            <span class="ButtonText">Contact</span>
+        </a>
+    </li>
+    <li class="MenuItem AccountItem">
+        <a class="MenuLink" ui-sref="account.register" title="Create an account with NextCasino to reap all the benefits of playing here">
+            <span class="icon i-lock"></span>
+            <span class="ButtonText">Register</span>
+        </a>
+    </li>
+    <li class="MenuItem AccountItem">
+        <em-login-popup template="views/parts/loginPopup.html"  >
+            <a ng-if="isLoggedIn" ng-click="logout()" class="MenuLink" title="Sign out from your account at NextCasino">
+                <span class="icon i-lock"></span>
+                <span class="ButtonText">Sign out</span>
+            </a>
+            <a ng-if="!isLoggedIn" ng-click="showLogin()" class="MenuLink" title="Sign in to your account at NextCasino">
+                <span class="icon i-user"></span>
+                <span class="ButtonText">Sign in</span>
+            </a>
+        </em-login-popup>
+    </li>
+    <li class="MenuItem LanguageItem">
+        <a class="LanguageSwitcher" title="Pick another language to view our site in">Language: <span class="PickedLanguage">En<span class="Hideable">glish</span></span></a>
+    </li>
+    <li class="MenuItem SecondaryMenuItem">
+        <a class="MenuLink" ui-sref="help" title="Read our FAQ or talk to one of our helpful customer service representatives via live chat">
+            <span class="ButtonText">Help</span>
+        </a>
+    </li>
+    <li class="MenuItem SecondaryMenuItem">
+        <a class="MenuLink" ui-sref="paymentMethods" title="See the whole specifications for what payment methods we accept">
+            <span class="ButtonText">Payment Methods</span>
+        </a>
+    </li>
+    <li class="MenuItem SecondaryMenuItem">
+        <a class="MenuLink" ui-sref="affiliates" title="Become an affiliate today to earn money via NextCasino">
+            <span class="ButtonText">Affiliates</span>
+        </a>
+    </li>
+</ul>

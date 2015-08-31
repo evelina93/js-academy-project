@@ -1,7 +1,7 @@
 <html ng-app="cartApp">
 <head>
 
-    <base href="/" />
+    <base href="/"/>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
@@ -9,12 +9,83 @@
     <title>Home</title>
 </head>
 <body>
-<menu ui-view="menu">
-</menu>
-<div ui-view="content">
-    Loading....
-</div>
 
+<div id="content" class="container Framework">
+    <header class="Header" id="header">
+        <nav class="MenuContainer MainMenuContainer">
+            <a class="Button MenuButton" title="Open NextCasino's main menu">
+                <strong class="ButtonText">Menu</strong>
+                <span class="icon i-menu" aria-hidden="true"></span>
+            </a>
+            <ul class="Menu MainMenu">
+                <li class="MenuItem">
+                    <a class="MenuLink" ui-sref="home" title="Visit NextCasino's homepage now">
+                        <span class="ButtonText">Home</span>
+                    </a>
+                </li>
+                <li class="MenuItem">
+                    <a class="MenuLink" ui-sref="casino" title="See the entire list of our Casino games">
+                        <span class="ButtonText">Casino</span>
+                    </a>
+                </li>
+                <li class="MenuItem">
+                    <a class="MenuLink" ui-sref="promotions"
+                       title="Review our promotions and find out what we can offer you">
+                        <span class="ButtonText">Promotions</span>
+                    </a>
+                </li>
+                <li class="MenuItem">
+                    <a class="MenuLink" ui-sref="contact" title="Get in touch with the NextCasino team">
+                        <span class="ButtonText">Contact</span>
+                    </a>
+                </li>
+
+                <li class="MenuItem LanguageItem">
+                    <a class="LanguageSwitcher" title="Pick another language to view our site in">Language: <span
+                            class="PickedLanguage">En<span class="Hideable">glish</span></span></a>
+                </li>
+                <li class="MenuItem SecondaryMenuItem">
+                    <a class="MenuLink" ui-sref="help"
+                       title="Read our FAQ or talk to one of our helpful customer service representatives via live chat">
+                        <span class="ButtonText">Help</span>
+                    </a>
+                </li>
+                <li class="MenuItem SecondaryMenuItem">
+                    <a class="MenuLink" ui-sref="paymentMethods"
+                       title="See the whole specifications for what payment methods we accept">
+                        <span class="ButtonText">Payment Methods</span>
+                    </a>
+                </li>
+                <li class="MenuItem SecondaryMenuItem">
+                    <a class="MenuLink" ui-sref="affiliates"
+                       title="Become an affiliate today to earn money via NextCasino">
+                        <span class="ButtonText">Affiliates</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <div class="">
+        <div class="PageContent">
+            <div class="TitleZone">
+                <div class="TitleZoneContainer Container" ui-view="header">
+                </div>
+            </div>
+        </div>
+        <section class="tmp-default Content">
+            <div class="ContentWrapper">
+                <div class="ContentWrapper2" ui-view="content">
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <menu ui-view="footer"  class="Footer">
+    </menu>
+</div>
 <script src="/scripts/app.js"></script>
 </body>
 </html>
