@@ -1,0 +1,64 @@
+<div class="CasinoGames" >
+    <form class="Form CasinoControls Container" id="casinoControls" name="casinoControls"
+          action="/casino/filter/method1/vendor2/game3" method="post" novalidate="novalidate">
+        <fieldset class="CasinoControl">
+            <label class="CasinoLabel" for="casinoMethod">Sort by</label>
+            <label class="CasinoLabelSymbol" for="casinoMethod"><span class="icon i-down" aria-hidden="true"/></label>
+            <select class="InputSelect" id="casinoMethod" name="casinoMethod" accesskey="m" ng-model="selectedMethod"
+                    ng-change="changed(selectedMethod, selectedVendor, selectedGame)">
+                <option value="">Method</option>
+                <option value="Name">Name</option>
+                <option value="FPP">FPP</option>
+            </select>
+        </fieldset>
+        <fieldset class="CasinoControl">
+            <label class="CasinoLabel" for="casinoVendor">filter by </label>
+            <label class="CasinoLabelSymbol" for="casinoVendor"><span class="icon i-down" aria-hidden="true"/></label>
+            <select class="InputSelect" id="casinoVendor" name="casinoVendor" accesskey="v"
+                    ng-model="selectedVendor" ng-change="changed(selectedMethod, selectedVendor, selectedGame)">
+                <option value=""> Vendor</option>
+                <option value="{{ vendor }}" ng-repeat="vendor in vendors"> {{ vendor }}</option>
+            </select>
+
+
+        </fieldset>
+        <fieldset class="CasinoControl">
+            <label class="CasinoLabel" for="casinoSearch">Search for a</label>
+            <label class="CasinoLabelSymbol" for="casinoSearch"><span class="icon i-search" aria-hidden="true"/></label>
+            <input class="Input" type="search" id="casinoSearch" name="casinoSearch" value="" maxlength="300"
+                   placeholder="Game" accesskey="g" ng-model="selectedGame" ng-model-options="{ debounce: 1000 }"
+                   ng-change="changed(selectedMethod, selectedVendor, selectedGame)"/>
+        </fieldset>
+
+        <fieldset class="hidden">
+            <button type="submit" class="Button FormSubmit"
+                    title="Send us your address information and continue to the next step">
+                <span class="ButtonText">Next step</span>
+            </button>
+        </fieldset>
+    </form>
+
+<div ng-hide="gameList.length>=0">loading....</div><br>
+<div ng-show="gameList.length==0"><b>NOT FOUND</b></div>
+
+<div class="CasinoCategory Container CasinoCategory-1">
+    <ol class="CasinoGamesList">
+        <li ng-repeat="game in gameList" >
+            <display-game  game="game" ng-mouseenter="cls='OpenOptions'"
+                          ng-mouseleave="cls=''" ng-class="cls"/>
+        </li>
+    </ol>
+
+    <button ng-show="showLoadMoreButton" class="Button MoreButton CasinoGamesMore"
+            title="Load more Casino Games on this page" ng-click="loadMore()">
+                <span class="MoreSymbol">
+                    <span class="icon icon-plus" aria-hidden="true"></span>
+                </span>
+        <span class="MoreText">Load more Games</span>
+    </button>
+</div>
+</div>
+
+</div>
+
+<div style="clear: both"></div>

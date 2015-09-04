@@ -1,0 +1,63 @@
+<div class="CasinoGameItem">
+    <div class="CasinoGameContainer">
+        <a class="CasinoGameThumbLink" href="/casino/game/gonzos-quest/"
+           title="Play Gonzo's Quest now!">
+            <div class="CasinoGameThumbCont">
+                <img class="CasinoGameThumb" ng-src="{{ game.thumbnail }}" src="img/casino-thumbnail.png" width="260" height="173"
+                     alt="Gonzo's Quest thumbnail"/> <!-- lazy loaded after initial structural DOM -->
+            </div>
+        </a>
+        <ul class="CasinoGameProperties Container"><!-- lazy loaded after initial structural DOM -->
+            <li class="CasinoGameProperty Container Property-Favorite">
+                <a class="CasinoGameFav" href="#" title="Add Gonzo's Quest to your Favorite Games">
+                    <span class="icon i-starfull" aria-hidden="true"></span>
+                    <span class="ButtonText">Fav<span class="Hideable">orite</span></span>
+                </a>
+            </li>
+            <li class="CasinoGameProperty Container Property-Hot">
+                <span class="icon i-hot" aria-hidden="true"></span>
+                <span class="PropertyText">Hot</span>
+            </li>
+            <li class="CasinoGameProperty Container Property-New">
+                <span class="icon icon-plus" aria-hidden="true"></span>
+                <span class="PropertyText">New</span>
+            </li>
+        </ul>
+        <ul class="CasinoGameActions"><!-- loaded on demand = click, tap or hover -->
+            <li class="CasinoGameAction Action-Share">
+                <a class="CasinoActionLink" href="#"
+                   title="Share Gonzo's Quest on your Social Networks">
+                    <span class="icon i-share" aria-hidden="true"></span>
+                    <span class="ButtonText">Share</span>
+                </a>
+            </li>
+            <li class="CasinoGameAction Action-Favorite">
+                <a class="CasinoActionLink" href="#"
+                   title="Share Gonzo's Quest on your Social Networks">
+                    <span class="icon i-starfull" aria-hidden="true"></span>
+                    <span class="ButtonText">Favorite</span>
+                </a>
+            </li>
+            <li class="CasinoGameAction Action-PlayFun">
+                <a class="CasinoActionLink" href="#" title="Play Gonzo's Quest for fun">
+                    <span class="icon i-fun" aria-hidden="true"></span>
+                    <span class="ButtonText">Play for Fun</span>
+                </a>
+            </li>
+            <li class="CasinoGameAction Action-PlayReal">
+                <a class="CasinoActionLink" href="#" title="Play Gonzo's Quest and win real money!">
+                    <span class="icon icon-play" aria-hidden="true"></span>
+                    <span class="ButtonText">Play for Real</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <a class="CasinoGameTitle" href="/casino/game/gonzos-quest/"
+       title="Play Gonzo's Quest now and with with NextCasino">
+        <span class="icon icon-play" aria-hidden="true"></span>
+
+        <h3 class="CasinoGameName"> {{ game.name }} </h3>
+
+        <p class="CasinoGameDescription">Lorem ipsum dolor sit amet constectetur adipiscit elit.</p>
+    </a>
+</div>

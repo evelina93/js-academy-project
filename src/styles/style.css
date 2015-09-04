@@ -123,981 +123,981 @@
 /**********/
 /* general resets */
 html {
-  min-width: 250px;
-  min-width: 15.625rem;
-  color: #333;
-  background: #1a1a1a;
-  font-size: 100%;
-  -webkit-overflow-scrolling: touch;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
+    min-width: 250px;
+    min-width: 15.625rem;
+    color: #333;
+    background: #1a1a1a;
+    font-size: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1em;
-  line-height: 1.5em;
-  _text-align: center;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1em;
+    line-height: 1.5em;
+    _text-align: center;
 }
 
 /* fonts */
 body, select, input, textarea, button {
-  font-family: "Roboto", Helvetica, Arial, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif;
 }
 
 .ExoticLanguage,
 .Language-da_DK, .Language-de_DE, .Language-es_ES, .Language-fr_FR, .Language-hr_HR, .Language-no_NO, .Language-pl_PL, .Language-pt_PT, .Language-ro_RO, .Language-fi_FI, .Language-sv_SV, .Language-tr_TR, .Language-cz_CZ, .Language-hu_HU, .Language-me_ME, .Language-ur_UR, .Language-lv_LV, .Language-id_IN,
 .da_DK .ToolOption, .de_DE .ToolOption, .es_ES .ToolOption, .fr_FR .ToolOption, .hr_HR .ToolOption, .no_NO .ToolOption, .pl_PL .ToolOption, .pt_PT .ToolOption, .ro_RO .ToolOption, .fi_FL .ToolOption, .sv_SE .ToolOption, .tr_TR .ToolOption, .cz_CZ .ToolOption, .hu_HU .ToolOption, .me_ME .ToolOption, .ur_UR .ToolOption, .lv_LV .ToolOption, .id_IN .ToolOption,
 .da_DK, .de_DE, .es_ES, .fr_FR, .hr_HR, .no_NO, .pl_PL, .pt_PT, .ro_RO, .fi_FL, .sv_SE, .tr_TR, .cz_CZ, .hu_HU, .me_ME, .ur_UR, .lv_LV, .id_IN {
-  font-family: Helvetica, Arial, Ubuntu, FreeSans, clean, sans-serif;
+    font-family: Helvetica, Arial, Ubuntu, FreeSans, clean, sans-serif;
 }
 
 /* diacriticals */
 .Language-lt_LT, .lt_LT .ToolOption, .Language-sk_SL, .sk_SL .ToolOption, .lt_LT, .sk_SL {
-  font-family: "Trebuchet MS", Helvetica, Jamrul, Arial, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, Jamrul, Arial, sans-serif;
 }
 
 /* diacriticals */
 .Language-ru_RU, .Language-bg_BG, .Language-mk_MK, .Language-ua_UA, .ru_RU .ToolOption, .bg_BG .ToolOption, .mk_MK .ToolOption, .uk_UK .ToolOption, .ru_RU, .bg_BG, .mk_MK, .uk_UK {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Arial Narrow", Arial, Verdana, Helvetica, Tahoma, "Trebuchet MS", Ubuntu, FreeSans, sans-serif;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Arial Narrow", Arial, Verdana, Helvetica, Tahoma, "Trebuchet MS", Ubuntu, FreeSans, sans-serif;
 }
 
 /* cyrillic */
 .Language-sr_YU, .sr_YU .ToolOption, .sr_YU {
-  font-family: "Resavska", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, Helvetica, Tahoma, "Trebuchet MS", Ubuntu, FreeSans, sans-serif;
+    font-family: "Resavska", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, Helvetica, Tahoma, "Trebuchet MS", Ubuntu, FreeSans, sans-serif;
 }
 
 /* cyrillic */
 .Language-gr_GR, .gr_GR .ToolOption, .gr_GR {
-  font-family: "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 }
 
 /* greek */
 .Language-zh_CN, .Language-yu_CN, .zh_CN .ToolOption, .yu_CN .ToolOption, .zh_CN, .yu_CN {
-  font-family: Arial, "宋体", SimSun, Helvetica, tahoma, verdana, sans-serif, "华文细黑", STXihei;
+    font-family: Arial, "宋体", SimSun, Helvetica, tahoma, verdana, sans-serif, "华文细黑", STXihei;
 }
 
 /* chinese */
 .Language-ka_GE, .ka_GE .ToolOption, .ka_GE {
-  font-family: "BPG Glaho", "BPG Glaho 2008", "Sylfaen", "Arial Unicode MS", clean, sans-serif;
+    font-family: "BPG Glaho", "BPG Glaho 2008", "Sylfaen", "Arial Unicode MS", clean, sans-serif;
 }
 
 /* georgian */
 .Language-he_IL, .he_IL .ToolOption, .he_IL {
-  font-family: Arial, "Arial Hebrew", "Arial Unicode MS", sans-serif;
-  direction: rtl;
-  text-align: right;
+    font-family: Arial, "Arial Hebrew", "Arial Unicode MS", sans-serif;
+    direction: rtl;
+    text-align: right;
 }
 
 /* hebrew */
 .Language-he_IL * {
-  text-align: right;
-  direction: rtl !important;
+    text-align: right;
+    direction: rtl !important;
 }
 
 .Language-ja_JP, .ja_JP .ToolOption, .ja_JP {
-  font-family: "MS Pゴシック", Osaka, "Hiragino Kaku Gothic", "ヒラギノ角ゴ Pro W3", "Lucida Grande", Arial, sans-serif;
+    font-family: "MS Pゴシック", Osaka, "Hiragino Kaku Gothic", "ヒラギノ角ゴ Pro W3", "Lucida Grande", Arial, sans-serif;
 }
 
 /* hiragano */
 .Language-th_TH, .th_TH .ToolOption, .th_TH {
-  font-family: Tahoma, "MS Sans Serif", Arial, "Arial Unicode MS", sans-serif;
+    font-family: Tahoma, "MS Sans Serif", Arial, "Arial Unicode MS", sans-serif;
 }
 
 /* thai */
 /* specific resets */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
 
 audio, canvas, video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
 }
 
 /* IE!!! */
 audio:not([controls]) {
-  display: none;
+    display: none;
 }
 
 address, caption, cite, code, dfn, em, strong, th, var {
-  font-style: normal;
-  font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  font-size: inherit;
-  font: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+    font: 100%;
 }
 
 td {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 strong, th {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 caption, th {
-  text-align: left;
+    text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: normal;
-  orphan-words: 2;
-  -webkit-word-wrap-limit: 2;
+    font-size: 100%;
+    font-weight: normal;
+    orphan-words: 2;
+    -webkit-word-wrap-limit: 2;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
-  text-rendering: optimizeLegibility;
-  font-feature-settings: "kern";
-  -webkit-font-feature-settings: "kern";
-  -moz-font-feature-settings: "kern";
-  -moz-font-feature-settings: "kern=1";
-  font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+    font-kerning: normal;
 }
 
 b, strong {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 q {
-  font-style: italic;
-  quotes: "“" "”" "‘" "’";
+    font-style: italic;
+    quotes: "“" "”" "‘" "’";
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 q:before {
-  content: open-quote;
+    content: open-quote;
 }
 
 q:after {
-  content: close-quote;
+    content: close-quote;
 }
 
 ul, ol {
-  list-style-position: outside;
-  margin: 0;
+    list-style-position: outside;
+    margin: 0;
 }
 
 ol {
-  list-style-type: decimal;
+    list-style-type: decimal;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 nav ul, nav li {
-  margin: 0;
-  list-style: none;
-  list-style-image: none;
+    margin: 0;
+    list-style: none;
+    list-style-image: none;
 }
 
 pre, code, kbd, samp, tt {
-  font-family: monospace, monospace;
-  _font-family: 'courier new', monospace;
-  font-size: 1em;
+    font-family: monospace, monospace;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
 }
 
 em {
-  font-style: italic;
+    font-style: italic;
 }
 
 small {
-  font-size: 85%;
+    font-size: 85%;
 }
 
 sup {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 sub {
-  vertical-align: bottom;
+    vertical-align: bottom;
 }
 
 ins {
-  background-color: #ff9;
-  color: #080808;
-  text-decoration: none;
+    background-color: #ff9;
+    color: #080808;
+    text-decoration: none;
 }
 
 mark {
-  background-color: #ff9;
-  color: #080808;
-  font-style: italic;
-  font-weight: bold;
+    background-color: #ff9;
+    color: #080808;
+    font-style: italic;
+    font-weight: bold;
 }
 
 del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  padding: 2em;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 2em;
 }
 
 abbr, acronym {
-  border: 0;
-  font-variant: normal;
+    border: 0;
+    font-variant: normal;
 }
 
 dfn {
-  font-style: italic;
+    font-style: italic;
 }
 
 abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
+    border-bottom: 1px dotted;
+    cursor: help;
 }
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 form {
-  display: block;
+    display: block;
 }
 
 fieldset, img {
-  border: 0;
+    border: 0;
 }
 
 fieldset {
-  display: block;
+    display: block;
 }
 
 label {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 button, input, select, textarea {
-  margin: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  *vertical-align: middle;
-  font-family: inherit;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    *vertical-align: middle;
+    font-family: inherit;
 }
 
 /* IE!!! */
 button, input {
-  line-height: normal;
-  *overflow: visible;
+    line-height: normal;
+    *overflow: visible;
 }
 
 /* IE!!! */
 button, input[type="reset"], input[type="button"], input[type="submit"] {
-  line-height: 1.3333em !important;
+    line-height: 1.3333em !important;
 }
 
 /* wtf?! */
 input, textarea, select {
-  border: none;
-  font-size: inherit;
-  font-weight: inherit;
-  vertical-align: middle;
+    border: none;
+    font-size: inherit;
+    font-weight: inherit;
+    vertical-align: middle;
 }
 
 input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholder, input:-ms-input-placeholder, textarea::-webkit-input-placeholder, textarea:-moz-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeholder, select::-webkit-input-placeholder, select:-moz-placeholder, select::-moz-placeholder, select:-ms-input-placeholder {
-  font-style: italic;
+    font-style: italic;
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
+    cursor: pointer;
+    -webkit-appearance: button;
 }
 
 input[type="checkbox"], input[type="radio"] {
-  box-sizing: border-box;
-  background: transparent;
+    box-sizing: border-box;
+    background: transparent;
 }
 
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {
-  display: none;
+    display: none;
 }
 
 input[type="search"] {
-  -webkit-appearance: textfield;
-  box-sizing: content-box;
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
 }
 
 button::-moz-focus-inner, input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+    border: 0;
+    padding: 0;
 }
 
 input:hover, textarea:hover, select:hover {
-  background-color: #fff;
-  color: #333;
+    background-color: #fff;
+    color: #333;
 }
 
 input:focus, textarea:focus, select:focus {
-  background-color: #fafafa;
-  color: #666;
-  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    background-color: #fafafa;
+    color: #666;
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
 }
 
 textarea {
-  overflow: auto;
-  vertical-align: top;
+    overflow: auto;
+    vertical-align: top;
 }
 
 input:invalid, textarea:invalid {
-  border-radius: 1px;
-  box-shadow: 0 0 5px red;
+    border-radius: 1px;
+    box-shadow: 0 0 5px red;
 }
 
 .no-boxshadow input:invalid, .no-boxshadow textarea:invalid {
-  background-color: #f0dddd;
+    background-color: #f0dddd;
 }
 
 legend {
-  border: 0;
-  *margin-left: -7px;
-  padding: 0;
+    border: 0;
+    *margin-left: -7px;
+    padding: 0;
 }
 
 /* IE!!! */
 .ie6 legend, .ie7 legend {
-  margin-left: -7px;
+    margin-left: -7px;
 }
 
 img {
-  border: 0;
-  -ms-interpolation-mode: bicubic;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
 }
 
 svg:not(:root) {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 figure {
-  margin: 0;
+    margin: 0;
 }
 
 ::-moz-selection {
-  background: #1c2834;
-  color: #ffce00;
-  text-shadow: none;
+    background: #1c2834;
+    color: #ffce00;
+    text-shadow: none;
 }
 
 ::selection {
-  background: #1c2834;
-  color: #ffce00;
-  text-shadow: none;
+    background: #1c2834;
+    color: #ffce00;
+    text-shadow: none;
 }
 
 /****************/
 /* CUSTOM FONTS */
 /****************/
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format("woff");
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: bold;
-  src: local("Roboto Bold"), local("Roboto-Bold"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    src: local("Roboto Bold"), local("Roboto-Bold"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  src: local("Roboto Black"), local("Roboto-Black"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/mnpfi9pxYH-Go5UiibESIj8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local("Roboto Black"), local("Roboto-Black"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/mnpfi9pxYH-Go5UiibESIj8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: normal;
-  src: local("Roboto Italic"), local("Roboto-Italic"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/1pO9eUAp8pSF8VnRTP3xnvesZW2xOQ-xsNqO47m55DA.woff) format("woff");
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: normal;
+    src: local("Roboto Italic"), local("Roboto-Italic"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/1pO9eUAp8pSF8VnRTP3xnvesZW2xOQ-xsNqO47m55DA.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: bold;
-  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/t6Nd4cfPRhZP44Q5QAjcC4bN6UDyHWBl620a-IRfuBk.woff) format("woff");
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: bold;
+    src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/t6Nd4cfPRhZP44Q5QAjcC4bN6UDyHWBl620a-IRfuBk.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 900;
-  src: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/bmC0pGMXrhphrZJmniIZpYbN6UDyHWBl620a-IRfuBk.woff) format("woff");
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/bmC0pGMXrhphrZJmniIZpYbN6UDyHWBl620a-IRfuBk.woff) format("woff");
 }
 
 /****************/
 /* CUSTOM ICONS */
 /****************/
 @font-face {
-  font-family: 'NextCasinoIcons';
-  src: url("../fonts/NextCasinoIcons.eot?-fymnzm");
-  src: url("../fonts/NextCasinoIcons.eot?#iefix-fymnzm") format("embedded-opentype"), url("../fonts/NextCasinoIcons.woff?-fymnzm") format("woff"), url("../fonts/NextCasinoIcons.ttf?-fymnzm") format("truetype"), url("../fonts/NextCasinoIcons.svg?-fymnzm#NextCasinoIcons") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'NextCasinoIcons';
+    src: url("../fonts/NextCasinoIcons.eot?-fymnzm");
+    src: url("../fonts/NextCasinoIcons.eot?#iefix-fymnzm") format("embedded-opentype"), url("../fonts/NextCasinoIcons.woff?-fymnzm") format("woff"), url("../fonts/NextCasinoIcons.ttf?-fymnzm") format("truetype"), url("../fonts/NextCasinoIcons.svg?-fymnzm#NextCasinoIcons") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 .icon {
-  /*de scos*/
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  font-size: 1em;
-  line-height: 1em;
-  background: transparent center center no-repeat;
-  /*end de scos*/
-  font-family: 'NextCasinoIcons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  vertical-align: middle;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /*de scos*/
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    font-size: 1em;
+    line-height: 1em;
+    background: transparent center center no-repeat;
+    /*end de scos*/
+    font-family: 'NextCasinoIcons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-home:before {
-  content: "\e600";
+    content: "\e600";
 }
 
 .icon-bullhorn:before {
-  content: "\e601";
+    content: "\e601";
 }
 
 .icon-stack:before {
-  content: "\e602";
+    content: "\e602";
 }
 
 .icon-screen:before {
-  content: "\e603";
+    content: "\e603";
 }
 
 .icon-mobile:before {
-  content: "\e604";
+    content: "\e604";
 }
 
 .icon-spinner:before {
-  content: "\e605";
+    content: "\e605";
 }
 
 .icon-search:before {
-  content: "\e606";
+    content: "\e606";
 }
 
 .icon-image:before {
-  content: "\e607";
+    content: "\e607";
 }
 
 .icon-cog:before {
-  content: "\e608";
+    content: "\e608";
 }
 
 .icon-stats:before {
-  content: "\e609";
+    content: "\e609";
 }
 
 .icon-trophy:before {
-  content: "\e60a";
+    content: "\e60a";
 }
 
 .icon-menu:before {
-  content: "\e60b";
+    content: "\e60b";
 }
 
 .icon-menu2:before {
-  content: "\e60c";
+    content: "\e60c";
 }
 
 .icon-list:before {
-  content: "\e60d";
+    content: "\e60d";
 }
 
 .icon-tree:before {
-  content: "\e60e";
+    content: "\e60e";
 }
 
 .icon-earth:before {
-  content: "\e60f";
+    content: "\e60f";
 }
 
 .icon-link:before {
-  content: "\e610";
+    content: "\e610";
 }
 
 .icon-star:before {
-  content: "\e611";
+    content: "\e611";
 }
 
 .icon-star2:before {
-  content: "\e612";
+    content: "\e612";
 }
 
 .icon-blocked:before, .icon-error:before {
-  content: "\e613";
+    content: "\e613";
 }
 
 .icon-checkmark:before, .icon-success:before {
-  content: "\e614";
+    content: "\e614";
 }
 
 .icon-spam:before, .icon-warn:before {
-  content: "\e615";
+    content: "\e615";
 }
 
 .icon-info:before {
-  content: "\e616";
+    content: "\e616";
 }
 
 .icon-minus:before {
-  content: "\e617";
+    content: "\e617";
 }
 
 .icon-plus:before {
-  content: "\e618";
+    content: "\e618";
 }
 
 .icon-loop:before {
-  content: "\e619";
+    content: "\e619";
 }
 
 .icon-arrow-right:before {
-  content: "\e61a";
+    content: "\e61a";
 }
 
 .icon-arrow-left:before {
-  content: "\e61b";
+    content: "\e61b";
 }
 
 .icon-filter:before {
-  content: "\e61c";
+    content: "\e61c";
 }
 
 .icon-apple:before {
-  content: "\e61d";
+    content: "\e61d";
 }
 
 .icon-windows8:before {
-  content: "\e61e";
+    content: "\e61e";
 }
 
 .icon-android:before {
-  content: "\e61f";
+    content: "\e61f";
 }
 
 .icon-clock:before {
-  content: "\e620";
+    content: "\e620";
 }
 
 .icon-checkbox-checked:before {
-  content: "\e621";
+    content: "\e621";
 }
 
 .icon-checkbox-unchecked:before {
-  content: "\e622";
+    content: "\e622";
 }
 
 .icon-checkbox-partial:before {
-  content: "\e623";
+    content: "\e623";
 }
 
 .icon-file:before {
-  content: "\e624";
+    content: "\e624";
 }
 
 .icon-gift:before {
-  content: "\e625";
+    content: "\e625";
 }
 
 .icon-target:before {
-  content: "\e626";
+    content: "\e626";
 }
 
 .icon-calendar:before {
-  content: "\e627";
+    content: "\e627";
 }
 
 .icon-stopwatch:before {
-  content: "\e628";
+    content: "\e628";
 }
 
 .icon-bug:before {
-  content: "\e629";
+    content: "\e629";
 }
 
 .icon-heart:before {
-  content: "\e62a";
+    content: "\e62a";
 }
 
 .icon-heart2:before {
-  content: "\e62b";
+    content: "\e62b";
 }
 
 .icon-switch:before {
-  content: "\e62c";
+    content: "\e62c";
 }
 
 .icon-bubbles:before, .icon-notify:before {
-  content: "\e62d";
+    content: "\e62d";
 }
 
 .icon-arrow-right2:before {
-  content: "\e62e";
+    content: "\e62e";
 }
 
 .icon-location:before {
-  content: "\e62f";
+    content: "\e62f";
 }
 
 .icon-mail:before {
-  content: "\e630";
+    content: "\e630";
 }
 
 .icon-lock:before {
-  content: "\e631";
+    content: "\e631";
 }
 
 .icon-vynil:before {
-  content: "\e632";
+    content: "\e632";
 }
 
 .icon-play:before {
-  content: "\e658";
+    content: "\e658";
 }
 
 .i-videoslots:before {
-  content: "\e633";
+    content: "\e633";
 }
 
 .i-videopoker:before {
-  content: "\e634";
+    content: "\e634";
 }
 
 .i-userplus:before {
-  content: "\e635";
+    content: "\e635";
 }
 
 .i-user:before {
-  content: "\e636";
+    content: "\e636";
 }
 
 .i-twitter:before {
-  content: "\e637";
+    content: "\e637";
 }
 
 .i-tablegames:before {
-  content: "\e638";
+    content: "\e638";
 }
 
 .i-starfull:before {
-  content: "\e639";
+    content: "\e639";
 }
 
 .i-support:before {
-  content: "\e63a";
+    content: "\e63a";
 }
 
 .i-star:before {
-  content: "\e63b";
+    content: "\e63b";
 }
 
 .i-spades:before {
-  content: "\e63c";
+    content: "\e63c";
 }
 
 .i-share:before {
-  content: "\e63d";
+    content: "\e63d";
 }
 
 .i-search:before {
-  content: "\e63e";
+    content: "\e63e";
 }
 
 .i-prize:before {
-  content: "\e63f";
+    content: "\e63f";
 }
 
 .i-othergames:before {
-  content: "\e640";
+    content: "\e640";
 }
 
 .i-newest:before {
-  content: "\e641";
+    content: "\e641";
 }
 
 .i-more:before {
-  content: "\e642";
+    content: "\e642";
 }
 
 .i-message:before {
-  content: "\e643";
+    content: "\e643";
 }
 
 .i-menu:before {
-  content: "\e644";
+    content: "\e644";
 }
 
 .i-lock:before {
-  content: "\e645";
+    content: "\e645";
 }
 
 .i-link:before {
-  content: "\e646";
+    content: "\e646";
 }
 
 .i-jackpotgames:before {
-  content: "\e647";
+    content: "\e647";
 }
 
 .i-hot:before {
-  content: "\e648";
+    content: "\e648";
 }
 
 .i-googleplus:before {
-  content: "\e649";
+    content: "\e649";
 }
 
 .i-fun:before {
-  content: "\e64a";
+    content: "\e64a";
 }
 
 .i-forward:before {
-  content: "\e64b";
+    content: "\e64b";
 }
 
 .i-filter:before {
-  content: "\e64c";
+    content: "\e64c";
 }
 
 .i-featured:before {
-  content: "\e64d";
+    content: "\e64d";
 }
 
 .i-facebook:before {
-  content: "\e64e";
+    content: "\e64e";
 }
 
 .i-eye:before {
-  content: "\e64f";
+    content: "\e64f";
 }
 
 .i-down:before {
-  content: "\e650";
+    content: "\e650";
 }
 
 .i-classicslots:before {
-  content: "\e651";
+    content: "\e651";
 }
 
 .i-check:before {
-  content: "\e652";
+    content: "\e652";
 }
 
 .i-back:before {
-  content: "\e653";
+    content: "\e653";
 }
 
 .i-3dslots:before {
-  content: "\e654";
+    content: "\e654";
 }
 
 .i-pen:before {
-  content: "\e655";
+    content: "\e655";
 }
 
 .i-close:before {
-  content: "\e656";
+    content: "\e656";
 }
 
 .i-delete:before {
-  content: "\e657";
+    content: "\e657";
 }
 
 .no-fontface .icon:before {
-  display: none;
-  content: '';
+    display: none;
+    content: '';
 }
 
 .no-fontface .i-videoslots {
-  background-image: url("../img/icon-videoslots.png");
+    background-image: url("../img/icon-videoslots.png");
 }
 
 .no-fontface .i-videopoker {
-  background-image: url("../img/icon-videopoker.png");
+    background-image: url("../img/icon-videopoker.png");
 }
 
 .no-fontface .i-userplus {
-  background-image: url("../img/icon-userplus.png");
+    background-image: url("../img/icon-userplus.png");
 }
 
 .no-fontface .i-user {
-  background-image: url("../img/icon-user.png");
+    background-image: url("../img/icon-user.png");
 }
 
 .no-fontface .i-twitter {
-  background-image: url("../img/icon-twitter.png");
+    background-image: url("../img/icon-twitter.png");
 }
 
 .no-fontface .i-tablegames {
-  background-image: url("../img/icon-tablegames.png");
+    background-image: url("../img/icon-tablegames.png");
 }
 
 .no-fontface .i-starfull {
-  background-image: url("../img/icon-starfull.png");
+    background-image: url("../img/icon-starfull.png");
 }
 
 .no-fontface .i-support {
-  background-image: url("../img/icon-support.png");
+    background-image: url("../img/icon-support.png");
 }
 
 .no-fontface .i-star {
-  background-image: url("../img/icon-star.png");
+    background-image: url("../img/icon-star.png");
 }
 
 .no-fontface .i-spades {
-  background-image: url("../img/icon-spades.png");
+    background-image: url("../img/icon-spades.png");
 }
 
 .no-fontface .i-share {
-  background-image: url("../img/icon-share.png");
+    background-image: url("../img/icon-share.png");
 }
 
 .no-fontface .i-search {
-  background-image: url("../img/icon-search.png");
+    background-image: url("../img/icon-search.png");
 }
 
 .no-fontface .i-prize {
-  background-image: url("../img/icon-prize.png");
+    background-image: url("../img/icon-prize.png");
 }
 
 .no-fontface .i-othergames {
-  background-image: url("../img/icon-othergames.png");
+    background-image: url("../img/icon-othergames.png");
 }
 
 .no-fontface .i-newest {
-  background-image: url("../img/icon-newest.png");
+    background-image: url("../img/icon-newest.png");
 }
 
 .no-fontface .i-more {
-  background-image: url("../img/icon-more.png");
+    background-image: url("../img/icon-more.png");
 }
 
 .no-fontface .i-message {
-  background-image: url("../img/icon-message.png");
+    background-image: url("../img/icon-message.png");
 }
 
 .no-fontface .i-menu {
-  background-image: url("../img/icon-menu.png");
+    background-image: url("../img/icon-menu.png");
 }
 
 .no-fontface .i-lock {
-  background-image: url("../img/icon-lock.png");
+    background-image: url("../img/icon-lock.png");
 }
 
 .no-fontface .i-link {
-  background-image: url("../img/icon-link.png");
+    background-image: url("../img/icon-link.png");
 }
 
 .no-fontface .i-jackpotgames {
-  background-image: url("../img/icon-jackpotgames.png");
+    background-image: url("../img/icon-jackpotgames.png");
 }
 
 .no-fontface .i-hot {
-  background-image: url("../img/icon-hot.png");
+    background-image: url("../img/icon-hot.png");
 }
 
 .no-fontface .i-googleplus {
-  background-image: url("../img/icon-googleplus.png");
+    background-image: url("../img/icon-googleplus.png");
 }
 
 .no-fontface .i-fun {
-  background-image: url("../img/icon-fun.png");
+    background-image: url("../img/icon-fun.png");
 }
 
 .no-fontface .i-forward {
-  background-image: url("../img/icon-forward.png");
+    background-image: url("../img/icon-forward.png");
 }
 
 .no-fontface .i-filter {
-  background-image: url("../img/icon-filter.png");
+    background-image: url("../img/icon-filter.png");
 }
 
 .no-fontface .i-featured {
-  background-image: url("../img/icon-featured.png");
+    background-image: url("../img/icon-featured.png");
 }
 
 .no-fontface .i-facebook {
-  background-image: url("../img/icon-facebook.png");
+    background-image: url("../img/icon-facebook.png");
 }
 
 .no-fontface .i-eye {
-  background-image: url("../img/icon-eye.png");
+    background-image: url("../img/icon-eye.png");
 }
 
 .no-fontface .i-down {
-  background-image: url("../img/icon-down.png");
+    background-image: url("../img/icon-down.png");
 }
 
 .no-fontface .i-classicslots {
-  background-image: url("../img/icon-classicslots.png");
+    background-image: url("../img/icon-classicslots.png");
 }
 
 .no-fontface .i-check {
-  background-image: url("../img/icon-check.png");
+    background-image: url("../img/icon-check.png");
 }
 
 .no-fontface .i-back {
-  background-image: url("../img/icon-back.png");
+    background-image: url("../img/icon-back.png");
 }
 
 .no-fontface .i-3dslots {
-  background-image: url("../img/icon-3dslots.png");
+    background-image: url("../img/icon-3dslots.png");
 }
 
 .no-fontface .i-pen {
-  background-image: url("../img/icon-pen.png");
+    background-image: url("../img/icon-pen.png");
 }
 
 .no-fontface .i-close {
-  background-image: url("../img/icon-close.png");
+    background-image: url("../img/icon-close.png");
 }
 
 .no-fontface .i-delete {
-  background-image: url("../img/icon-delete.png");
+    background-image: url("../img/icon-delete.png");
 }
 
 /******************/
@@ -1105,305 +1105,305 @@ figure {
 /******************/
 /* anchor style */
 a {
-  color: #882a28;
-  text-decoration: none;
-  cursor: pointer;
+    color: #882a28;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 a:active {
-  color: #ffcf10;
+    color: #ffcf10;
 }
 
 a:focus {
-  outline: none;
+    outline: none;
 }
 
 a:hover, a:active {
-  outline: none;
+    outline: none;
 }
 
 /***********/
 /* BUTTONS */
 /***********/
 .Button {
-  display: block;
-  padding: 0.5em 1em;
-  position: relative;
-  background: #ff9902;
-  color: #fff;
-  border: none;
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 1em;
-  text-align: center;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
-  box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  -webkit-box-sizing: inherit;
+    display: block;
+    padding: 0.5em 1em;
+    position: relative;
+    background: #ff9902;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1em;
+    text-align: center;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
 }
 
 .Button:hover {
-  background: #ffce00;
-  color: #000;
-  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.5);
+    background: #ffce00;
+    color: #000;
+    box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.5);
 }
 
 .Button:active {
-  background: #1c2834;
-  color: #ff9902;
-  box-shadow: inset 0.25em 0.25em 0 rgba(0, 0, 0, 0.5);
+    background: #1c2834;
+    color: #ff9902;
+    box-shadow: inset 0.25em 0.25em 0 rgba(0, 0, 0, 0.5);
 }
 
 /*********/
 /* FORMS */
 /*********/
 .Form {
-  display: block;
+    display: block;
 }
 
 .Fieldset {
-  display: block;
-  border: none;
+    display: block;
+    border: none;
 }
 
 .Fieldset legend {
-  display: block;
-  position: relative;
+    display: block;
+    position: relative;
 }
 
 .FormList {
-  display: block;
-  list-style-type: none;
-  list-style-position: outside;
+    display: block;
+    list-style-type: none;
+    list-style-position: outside;
 }
 
 .FormItem {
-  display: block;
-  list-style-type: none;
-  clear: both;
-  margin: 1.5em 0;
+    display: block;
+    list-style-type: none;
+    clear: both;
+    margin: 1.5em 0;
 }
 
 .FormLeftItem {
-  float: none;
+    float: none;
 }
 
 @media (min-width: 480px) {
-  .FormLeftItem {
-    float: left;
-    clear: none;
-    width: 25%;
-    margin: 1.5em 0;
-  }
+    .FormLeftItem {
+        float: left;
+        clear: none;
+        width: 25%;
+        margin: 1.5em 0;
+    }
 }
 
 .FormRightItem {
-  float: none;
+    float: none;
 }
 
 @media (min-width: 480px) {
-  .FormRightItem {
-    float: left;
-    clear: none;
-    width: 75%;
-  }
+    .FormRightItem {
+        float: left;
+        clear: none;
+        width: 75%;
+    }
 }
 
 .FormInlineControl {
-  display: block;
-  float: left;
-  margin: 0 1em 0 0;
+    display: block;
+    float: left;
+    margin: 0 1em 0 0;
 }
 
 .Input, .InputSelect, .InputTextarea {
-  display: block;
-  padding: 0.5em;
-  background: #f0eee6;
-  color: #7f7f7f;
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 1em;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
-  -webkit-appearance: none;
+    display: block;
+    padding: 0.5em;
+    background: #f0eee6;
+    color: #7f7f7f;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1em;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    -webkit-appearance: none;
 }
 
 @media (min-width: 480px) {
-  .Input, .InputSelect, .InputTextarea {
-    padding: 1em;
-  }
+    .Input, .InputSelect, .InputTextarea {
+        padding: 1em;
+    }
 }
 
 .Input:hover, .InputSelect:hover, .InputTextarea:hover {
-  background-color: #fff;
-  color: #333;
+    background-color: #fff;
+    color: #333;
 }
 
 .Input:focus, .InputSelect:focus, .InputTextarea:focus, .Form .ng-pristine:focus {
-  background-color: #fafafa;
-  color: #666;
-  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.6);
+    background-color: #fafafa;
+    color: #666;
+    box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.6);
 }
 
 .Form .ng-valid:focus {
-  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.6), inset 0 -0.3em 0 #008900;
+    box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.6), inset 0 -0.3em 0 #008900;
 }
 
 .InputCheckbox {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
 }
 
 .InputSelect {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .disabled {
-  opacity: 0.2;
-  background-image: url("../img/bg-pattern-diagonal.png");
-  background-repeat: repeat;
+    opacity: 0.2;
+    background-image: url("../img/bg-pattern-diagonal.png");
+    background-repeat: repeat;
 }
 
 .disabled:hover {
-  background-image: url("../img/bg-pattern-diagonal.png");
-  background-repeat: repeat;
+    background-image: url("../img/bg-pattern-diagonal.png");
+    background-repeat: repeat;
 }
 
 .ng-invalid {
-  border: 0.1em solid #ef0000;
+    border: 0.1em solid #ef0000;
 }
 
 .ng-valid {
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3), inset 0 -0.3em 0 #008900;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3), inset 0 -0.3em 0 #008900;
 }
 
 form.ng-valid {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 .Form .ng-pristine {
-  border: none;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    border: none;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 .Form .InputCheckbox {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 .FormLeftItem .Input, .FormLeftItem .InputSelect, .FormLeftItem .InputTextarea, .FormRightItem .Input, .FormRightItem .InputSelect, .FormRightItem .InputTextarea {
-  width: auto;
-  margin: 0;
+    width: auto;
+    margin: 0;
 }
 
 .InputErrorWrapper {
-  display: block;
+    display: block;
 }
 
 .FormLeftItem .InputErrorWrapper {
-  width: 63%;
+    width: 63%;
 }
 
 .InputErrorHeader {
-  display: block;
+    display: block;
 }
 
 .InputErrorContainer {
-  display: block;
+    display: block;
 }
 
 .InputError {
-  display: block;
+    display: block;
 }
 
 /****************/
 /* HIDING STUFF */
 /****************/
 .ir {
-  display: block;
-  text-indent: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  background-repeat: no-repeat;
-  text-align: left;
-  direction: ltr;
+    display: block;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
 }
 
 .ir br {
-  display: none;
+    display: none;
 }
 
 .hidden, .Hidden {
-  display: none !important;
+    display: none !important;
 }
 
 .visuallyhidden {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  background: #000;
-  color: #fff;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    background: #000;
+    color: #fff;
 }
 
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
 }
 
 .invisible, .Invisible {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .disabled, .Disabled {
-  opacity: 0.2;
+    opacity: 0.2;
 }
 
 /*****************/
 /* BROWSER HACKS */
 /*****************/
 .chromeframe {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: black;
-  padding: 0.2em 0;
+    margin: 0.2em 0;
+    background: #ccc;
+    color: black;
+    padding: 0.2em 0;
 }
 
 .touch .PresentationModule:hover .PresentationMenu {
-  display: none;
+    display: none;
 }
 
 /************/
 /* IE HACKS */
 /************/
 .ie678 .foo {
-  color: green;
-  /* IE8 and below */
-  *color: yellow;
-  /* IE7 and below */
-  _color: orange;
-  /* IE6 */
+    color: green;
+    /* IE8 and below */
+    *color: yellow;
+    /* IE7 and below */
+    _color: orange;
+    /* IE6 */
 }
 
 .browsehappy {
-  display: block;
-  padding: 1em;
-  background: #ffce00;
-  color: #000;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 1em;
+    background: #ffce00;
+    color: #000;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.5);
 }
 
 /*********************/
@@ -1418,48 +1418,48 @@ form.ng-valid {
 /* CLEARFIX */
 /************/
 .Main {
-  display: table-cell;
-  *display: block;
-  width: auto;
+    display: table-cell;
+    *display: block;
+    width: auto;
 }
 
 /* IE!!! */
 .Body, .Container, .Box, .Main, .Wrap, .Menu, .Form, .FormItem, .TitleZoneContainer, .ngdialog-content, .CasinoGameItem {
-  *zoom: 1;
+    *zoom: 1;
 }
 
 /* IE!!! */
 .Body:after, .Container:after, .Box:after, .Main:after, .Wrap:after, .Menu:after, .Form:after, .FormItem:after, .TitleZoneContainer:after, .ngdialog-content:after, .CasinoGameItem:after {
-  clear: both;
-  display: block;
-  visibility: hidden;
-  overflow: hidden;
-  height: 0 !important;
-  line-height: 0;
-  font-size: xx-large;
-  content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0 !important;
+    line-height: 0;
+    font-size: xx-large;
+    content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
 }
 
 /************/
 /* BOX FLOW */
 /************/
 .Header, .Menu, .Content, .Footer {
-  -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 .Menu {
-  display: block;
-  list-style-type: none;
-  list-style-position: outside;
+    display: block;
+    list-style-type: none;
+    list-style-position: outside;
 }
 
 .MenuItem {
-  display: block;
+    display: block;
 }
 
 .MenuLink {
-  display: block;
-  padding: 0.5em 1em;
+    display: block;
+    padding: 0.5em 1em;
 }
 
 /****************************/
@@ -1471,2215 +1471,2226 @@ form.ng-valid {
 /* Actual structure */
 /* !MODULE = Framework */
 @media (min-width: 1025px) {
-  body {
-    border: 2.5em solid #1b1b1b;
-  }
+    body {
+        border: 2.5em solid #1b1b1b;
+    }
 }
 
 .Framework {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  background: transparent;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1em;
-  line-height: 1.5em;
-  text-align: left;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background: transparent;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1em;
+    line-height: 1.5em;
+    text-align: left;
 }
 
 /* !ENDMODULE = Framework */
 /* !MODULE = Header */
 .Header {
-  display: block;
-  width: 100%;
-  height: 3.5em;
-  position: fixed;
-  z-index: 5;
-  top: 0;
-  left: 0;
-  background: #26615c;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 100%;
+    height: 3.5em;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background: #26615c;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 480px) {
-  .Header {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+    .Header {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 @media (min-width: 1025px) {
-  .Header {
-    top: 2em;
-  }
+    .Header {
+        top: 2em;
+    }
 }
 
 .Branding {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  z-index: 3;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
 }
 
 @media (min-width: 480px) {
-  .Branding {
-    float: left;
-    margin: 0 1.5em 0 4em;
-  }
+    .Branding {
+        float: left;
+        margin: 0 1.5em 0 4em;
+    }
 }
 
 @media (min-width: 1025px) {
-  .Branding {
-    margin: 0 0.5em 0 4em;
-  }
+    .Branding {
+        margin: 0 0.5em 0 4em;
+    }
 }
 
 @media (min-width: 1200px) {
-  .Branding {
-    margin: 0 0.5em 0 258px;
-  }
+    .Branding {
+        margin: 0 0.5em 0 258px;
+    }
 }
 
 .Logo {
-  display: block;
-  width: 160px;
-  height: 56px;
-  margin: 0 auto;
-  background: transparent url("../img/logo-mobile.png") center center no-repeat;
-  overflow: hidden;
-  white-space: nowrap;
-  text-indent: 100%;
-  -webkit-transition: all 1s ease-in-out 0s;
-  -moz-transition: all 1s ease-in-out 0s;
-  -o-transition: all 1s ease-in-out 0s;
-  transition: all 1s ease-in-out 0s;
+    display: block;
+    width: 160px;
+    height: 56px;
+    margin: 0 auto;
+    background: transparent url("../img/logo-mobile.png") center center no-repeat;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
 }
 
 @media (min-width: 1025px) {
-  .Logo {
-    background-position: center 1.25em;
-  }
+    .Logo {
+        background-position: center 1.25em;
+    }
 }
 
 @media (min-width: 1200px) {
-  .Logo {
-    width: 154px;
-    height: 161px;
-    position: relative;
-    top: 0;
-    z-index: 4;
-    background-image: url("../img/logo.png");
-    background-position: center center;
-  }
+    .Logo {
+        width: 154px;
+        height: 161px;
+        position: relative;
+        top: 0;
+        z-index: 4;
+        background-image: url("../img/logo.png");
+        background-position: center center;
+    }
 }
 
 .Logo:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1200px) {
-  .Logo:hover {
-    top: -1em;
-    background-color: transparent;
-  }
+    .Logo:hover {
+        top: -1em;
+        background-color: transparent;
+    }
 }
 
 /* !ENDMODULE = Header */
 /* !MODULE = TopMenus */
 .MenuContainer {
-  position: absolute;
-  z-index: 3;
+    position: absolute;
+    z-index: 3;
 }
 
 .MainMenuContainer {
-  float: right;
-  right: 0;
-  top: 0;
+    float: right;
+    right: 0;
+    top: 0;
 }
 
 @media (min-width: 1025px) {
-  .MainMenuContainer {
-    position: static;
-  }
+    .MainMenuContainer {
+        position: static;
+    }
 }
 
 .InventoryContainer {
-  float: left;
-  left: 0;
-  top: 0;
-  max-width: 250px;
-  max-width: 15.625rem;
+    float: left;
+    left: 0;
+    top: 0;
+    max-width: 250px;
+    max-width: 15.625rem;
 }
 
 .MenuButton {
-  width: 1.5em;
-  height: 1.5em;
-  padding: 1em;
-  z-index: 2;
-  background-color: #ffce00;
-  color: #000;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1em;
-  line-height: 1.5em;
-  box-shadow: none;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 1em;
+    z-index: 2;
+    background-color: #ffce00;
+    color: #000;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1em;
+    line-height: 1.5em;
+    box-shadow: none;
 }
 
 .MenuButton:hover {
-  background-color: #ecbf00;
-  color: #000;
+    background-color: #ecbf00;
+    color: #000;
 }
 
 .MainMenuContainer .MenuButton {
-  position: relative;
-  top: 0;
-  left: 0;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 @media (min-width: 1025px) {
-  .MainMenuContainer .MenuButton {
-    display: none;
-  }
+    .MainMenuContainer .MenuButton {
+        display: none;
+    }
 }
 
 .InventoryContainer .MenuButton {
-  position: relative;
-  top: 0;
-  right: 0;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .MenuButton .ButtonText {
-  display: none;
+    display: none;
 }
 
 .MenuButton .icon {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .MainMenu {
-  display: none;
-  min-width: 250px;
-  min-width: 15.625rem;
-  position: absolute;
-  z-index: 3;
-  right: 0;
-  top: 3.5em;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: none;
+    min-width: 250px;
+    min-width: 15.625rem;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 3.5em;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1025px) {
-  .MainMenu {
-    display: block;
-    top: 0;
-    left: 16em;
-    right: 0;
-    box-shadow: none;
-  }
+    .MainMenu {
+        display: block;
+        top: 0;
+        left: 16em;
+        right: 0;
+        box-shadow: none;
+    }
 }
 
 @media (min-width: 1200px) {
-  .MainMenu {
-    left: 25.5em;
-  }
+    .MainMenu {
+        left: 25.5em;
+    }
 }
 
 .MainMenu .MenuItem {
-  display: block;
-  float: none;
+    display: block;
+    float: none;
 }
 
 @media (min-width: 1025px) {
-  .MainMenu .MenuItem {
-    float: left;
-  }
+    .MainMenu .MenuItem {
+        float: left;
+    }
 }
 
 @media (min-width: 1025px) {
-  .MainMenu .AccountItem {
-    float: right;
-    margin: 0 1px 0 0;
-  }
+    .MainMenu .AccountItem {
+        float: right;
+        margin: 0 1px 0 0;
+    }
 }
 
 @media (min-width: 1025px) {
-  .MainMenu .LanguageItem {
-    position: absolute;
-    right: 0;
-    top: 6em;
-    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
-  }
+    .MainMenu .LanguageItem {
+        position: absolute;
+        right: 0;
+        top: 6em;
+        box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    }
 }
 
 @media (min-width: 1350px) {
-  .MainMenu .SecondaryMenuItem {
-    float: right;
-  }
+    .MainMenu .SecondaryMenuItem {
+        float: right;
+    }
 }
 
 @media (min-width: 1025px) {
-  .MainMenu .SecondaryMenuItem:nth-child(8) {
-    clear: left;
-  }
+    .MainMenu .SecondaryMenuItem:nth-child(8) {
+        clear: left;
+    }
 }
 
 @media (min-width: 1350px) {
-  .MainMenu .SecondaryMenuItem:nth-child(8) {
-    clear: none;
-    margin-right: 0.25em;
-  }
+    .MainMenu .SecondaryMenuItem:nth-child(8) {
+        clear: none;
+        margin-right: 0.25em;
+    }
 }
 
 .MainMenu .MenuLink {
-  display: block;
-  background: #fece00;
-  border-top: 1px solid #fee600;
-  border-bottom: 1px solid #cda801;
+    display: block;
+    background: #fece00;
+    border-top: 1px solid #fee600;
+    border-bottom: 1px solid #cda801;
 }
 
 @media (min-width: 1025px) {
-  .MainMenu .MenuLink {
-    padding: 1.5em 0.5em 1em 0.5em;
-    background: transparent;
-    border: none;
-    color: #fff;
-  }
+    .MainMenu .MenuLink {
+        padding: 1.5em 0.5em 1em 0.5em;
+        background: transparent;
+        border: none;
+        color: #fff;
+    }
 }
 
 .MainMenu .MenuLink:hover {
-  background-color: #ecbf00;
-  color: #fff;
+    background-color: #ecbf00;
+    color: #fff;
 }
 
 .MainMenu .MenuLink:active {
-  background-color: #ff9902;
-  color: #000;
+    background-color: #ff9902;
+    color: #000;
 }
 
 @media (min-width: 1025px) {
-  .AccountItem .MenuLink {
-    padding: 1.5em 1em 1em 1em;
-    background: #173b39;
-    font-weight: bold;
-  }
+    .AccountItem .MenuLink {
+        padding: 1.5em 1em 1em 1em;
+        background: #173b39;
+        font-weight: bold;
+    }
 }
 
 @media (min-width: 1025px) {
-  .SecondaryMenuItem .MenuLink {
-    padding: 0.5em;
-  }
+    .SecondaryMenuItem .MenuLink {
+        padding: 0.5em;
+    }
 }
 
 @media (min-width: 1350px) {
-  .SecondaryMenuItem .MenuLink {
-    padding: 1.5em 0.5em 1em 0.5em;
-  }
+    .SecondaryMenuItem .MenuLink {
+        padding: 1.5em 0.5em 1em 0.5em;
+    }
 }
 
 .LanguageSwitcher, .LiveSupportLink {
-  display: block;
-  padding: 0.5em 1em;
-  background: #882a28;
-  color: #fff;
+    display: block;
+    padding: 0.5em 1em;
+    background: #882a28;
+    color: #fff;
 }
 
 .LanguageSwitcher:hover, .LiveSupportLink:hover {
-  background: #ff9902;
+    background: #ff9902;
 }
 
 .LanguageSwitcher:active, .LiveSupportLink:active {
-  background: #000;
+    background: #000;
 }
 
 .MainMenu .icon {
-  display: block;
-  float: right;
-  padding: 0.125em 0.25em;
-  margin: -0.25em -0.5em;
-  font-size: 2em;
+    display: block;
+    float: right;
+    padding: 0.125em 0.25em;
+    margin: -0.25em -0.5em;
+    font-size: 2em;
 }
 
 @media (min-width: 1025px) {
-  .MainMenu .icon {
-    margin: 0 0 0 0.3333em;
-    padding: 0;
-    font-size: 1.5em;
-  }
+    .MainMenu .icon {
+        margin: 0 0 0 0.3333em;
+        padding: 0;
+        font-size: 1.5em;
+    }
 }
 
 .MenuTitle {
-  display: none;
-  padding: 1em 0 1em 1em;
-  position: relative;
-  z-index: 4;
-  background: #173b39;
-  color: #fff;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: none;
+    padding: 1em 0 1em 1em;
+    position: relative;
+    z-index: 4;
+    background: #173b39;
+    color: #fff;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1025px) {
-  .MenuTitle {
-    display: block;
-  }
+    .MenuTitle {
+        display: block;
+    }
 }
 
 .S {
-  display: block;
-  float: right;
-  width: 5.5em;
-  height: 2.5em;
-  margin: 0.5em -1.5em -0.5em 0;
-  background: #008884;
-  color: #fff;
-  line-height: 2.5em;
-  text-align: center;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
+    display: block;
+    float: right;
+    width: 5.5em;
+    height: 2.5em;
+    margin: 0.5em -1.5em -0.5em 0;
+    background: #008884;
+    color: #fff;
+    line-height: 2.5em;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
 }
 
 .L {
-  display: block;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
-  text-transform: uppercase;
+    display: block;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1em;
+    text-transform: uppercase;
 }
 
 .L strong {
-  display: block;
-  color: #fece00;
-  font-size: 32px;
-  font-size: 2rem;
-  line-height: 1em;
+    display: block;
+    color: #fece00;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1em;
 }
 
 .InventoryMenu {
-  display: none;
-  position: relative;
-  z-index: 3;
-  left: 0;
-  top: 0;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.4);
+    display: none;
+    position: relative;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.4);
 }
 
 @media (min-width: 1025px) {
-  .InventoryMenu {
-    display: block;
-  }
+    .InventoryMenu {
+        display: block;
+    }
 }
 
 .InventoryMenu .MenuLink {
-  display: block;
-  background: #102a27;
-  color: #fff;
-  border-bottom: 1px solid #26615c;
+    display: block;
+    background: #102a27;
+    color: #fff;
+    border-bottom: 1px solid #26615c;
 }
 
 .InventoryMenu .MenuLink:hover {
-  background: #015f5e;
-  color: #10d1cc;
+    background: #015f5e;
+    color: #10d1cc;
 }
 
 .InventoryMenu .MenuLink:active, .ActiveMenuItem .MenuLink {
-  background: #fece00;
-  color: #000;
+    background: #fece00;
+    color: #000;
 }
 
 .InventoryMenu .icon {
-  display: block;
-  float: right;
-  font-size: 2em;
-  padding: 0.125em;
-  margin: -0.25em -0.5em 0 0;
-  background-color: #015f5e;
-  color: #10d1cc;
+    display: block;
+    float: right;
+    font-size: 2em;
+    padding: 0.125em;
+    margin: -0.25em -0.5em 0 0;
+    background-color: #015f5e;
+    color: #10d1cc;
 }
 
 .LiveSupportLink .icon {
-  background-color: transparent;
-  color: inherit;
+    background-color: transparent;
+    color: inherit;
 }
 
 .InventoryMenu .MenuLink:hover .icon, .InventoryMenu .MenuLink:active .icon, .ActiveMenuItem .MenuLink .icon {
-  background-color: transparent;
-  color: inherit;
+    background-color: transparent;
+    color: inherit;
 }
 
 form.SearchForm {
-  display: none;
-  padding: 1em;
-  background: #095553;
-  line-height: 1em;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: none;
+    padding: 1em;
+    background: #095553;
+    line-height: 1em;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 480px) {
-  form.SearchForm {
-    display: block;
-    width: 10em;
-    padding: 0.75em 0;
-    position: absolute;
-    z-index: 4;
-    left: 14.75em;
-    top: 0;
-    background: transparent;
-    box-shadow: none;
-  }
+    form.SearchForm {
+        display: block;
+        width: 10em;
+        padding: 0.75em 0;
+        position: absolute;
+        z-index: 4;
+        left: 14.75em;
+        top: 0;
+        background: transparent;
+        box-shadow: none;
+    }
 }
 
 @media (min-width: 1025px) {
-  form.SearchForm {
-    width: auto;
-    padding: 0;
-    position: relative;
-    left: auto;
-    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
-  }
+    form.SearchForm {
+        width: auto;
+        padding: 0;
+        position: relative;
+        left: auto;
+        box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    }
 }
 
 .SearchInput {
-  display: block;
-  float: left;
-  width: 61.8%;
-  height: 1em;
-  padding: 0.5em 6.6%;
-  box-shadow: none;
+    display: block;
+    float: left;
+    width: 61.8%;
+    height: 1em;
+    padding: 0.5em 6.6%;
+    box-shadow: none;
 }
 
 @media (min-width: 1025px) {
-  .SearchInput {
-    width: 9.8333em;
-  }
+    .SearchInput {
+        width: 9.8333em;
+    }
 }
 
 .SearchSubmit {
-  display: block;
-  width: 25%;
-  height: 1em;
-  overflow: hidden;
-  padding: 0.5em 0;
-  box-shadow: none;
+    display: block;
+    width: 25%;
+    height: 1em;
+    overflow: hidden;
+    padding: 0.5em 0;
+    box-shadow: none;
 }
 
 @media (min-width: 1025px) {
-  .SearchSubmit {
-    width: 2.2222em;
-  }
+    .SearchSubmit {
+        width: 2.2222em;
+    }
 }
 
 .SearchSubmit .icon {
-  display: block;
-  margin: -0.25em auto;
+    display: block;
+    margin: -0.25em auto;
 }
 
 .HowItWorks {
-  display: none;
-  padding: 1em 0 1em 1em;
-  background: #173b39;
-  color: #fff;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: none;
+    padding: 1em 0 1em 1em;
+    background: #173b39;
+    color: #fff;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1025px) {
-  .HowItWorks {
-    display: block;
-  }
+    .HowItWorks {
+        display: block;
+    }
 }
 
 .HowItWorks .S {
-  width: 10em;
-  margin: 2.75em -3.75em -0.5em 0;
+    width: 10em;
+    margin: 2.75em -3.75em -0.5em 0;
 }
 
 .HowItWorksContent {
-  display: block;
-  overflow: hidden;
+    display: block;
+    overflow: hidden;
 }
 
 .MenuContainer:hover .Menu, .MenuContainer:hover .SearchForm, .MenuContainer:hover .HowItWorks {
-  display: block;
-}
-
-@media (min-width: 1025px) {
-  .MenuContainer:hover .Menu, .MenuContainer:hover .SearchForm, .MenuContainer:hover .HowItWorks {
-    display: inherit;
-  }
-}
-
-@media (min-width: 1025px) {
-  .MenuContainer:hover .MenuTitle {
     display: block;
-  }
+}
+
+@media (min-width: 1025px) {
+    .MenuContainer:hover .Menu, .MenuContainer:hover .SearchForm, .MenuContainer:hover .HowItWorks {
+        display: inherit;
+    }
+}
+
+@media (min-width: 1025px) {
+    .MenuContainer:hover .MenuTitle {
+        display: block;
+    }
 }
 
 /* !ENDMODULE = TopMenus */
 .PageContent {
-  display: block;
+    display: block;
 }
 
 /* !MODULE = TitleZone */
 .TitleZone {
-  display: block;
-  clear: both;
-  background: #00847e url("../img/bg-titlezone.jpg") center top no-repeat;
-  color: #fff;
+    display: block;
+    clear: both;
+    background: #00847e url("../img/bg-titlezone.jpg") center top no-repeat;
+    color: #fff;
 }
 
 @media (min-width: 1025px) {
-  .TitleZone {
-    padding: 0 0 0 250px;
-  }
+    .TitleZone {
+        padding: 0 0 0 250px;
+    }
 }
 
 @media (min-width: 1025px) {
-  .NoBrowse .TitleZone {
-    padding: 0;
-  }
+    .NoBrowse .TitleZone {
+        padding: 0;
+    }
 }
 
 .TitleZoneContainer {
-  padding: 150px 0px 0px 0px;
-  padding: 9.375rem 0rem 0rem 0rem;
-  background: transparent url("../img/bg-titlezonefront.png") center bottom no-repeat;
+    padding: 150px 0px 0px 0px;
+    padding: 9.375rem 0rem 0rem 0rem;
+    background: transparent url("../img/bg-titlezonefront.png") center bottom no-repeat;
 }
 
 @media (min-width: 1025px) {
-  .TitleZoneContainer {
-    padding: 200px 0px 0px 0px;
-    padding: 12.5rem 0rem 0rem 0rem;
-  }
+    .TitleZoneContainer {
+        padding: 200px 0px 0px 0px;
+        padding: 12.5rem 0rem 0rem 0rem;
+    }
 }
 
 .PageTitle {
-  display: block;
-  font-size: 32px;
-  font-size: 2rem;
-  line-height: 1em;
-  text-align: center;
-  text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1em;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 481px) {
-  .PageTitle {
-    font-size: 52px;
-    font-size: 3.25rem;
-    line-height: 1em;
-  }
+    .PageTitle {
+        font-size: 52px;
+        font-size: 3.25rem;
+        line-height: 1em;
+    }
 }
 
 @media (min-width: 1025px) {
-  .PageTitle {
-    float: left;
-    width: 50%;
-    padding: 1em 2% 1em 0;
-    text-align: right;
-  }
+    .PageTitle {
+        float: left;
+        width: 50%;
+        padding: 1em 2% 1em 0;
+        text-align: right;
+    }
 }
 
 .PageTitle strong {
-  display: block;
-  font-size: 42px;
-  font-size: 2.625rem;
-  line-height: 1em;
+    display: block;
+    font-size: 42px;
+    font-size: 2.625rem;
+    line-height: 1em;
 }
 
 @media (min-width: 481px) {
-  .PageTitle strong {
-    font-size: 72px;
-    font-size: 4.5rem;
-    line-height: 1em;
-  }
+    .PageTitle strong {
+        font-size: 72px;
+        font-size: 4.5rem;
+        line-height: 1em;
+    }
 }
 
 .TitleImage {
-  display: block;
-  width: 100%;
-  max-width: 428px;
-  height: auto;
-  margin: 0px auto -63px auto;
-  margin: 0rem auto -3.9375rem auto;
+    display: block;
+    width: 100%;
+    max-width: 428px;
+    height: auto;
+    margin: 0px auto -63px auto;
+    margin: 0rem auto -3.9375rem auto;
 }
 
 @media (min-width: 1025px) {
-  .TitleImage {
-    width: auto;
-    height: auto;
-    margin: 0px 0px -63px 0px;
-    margin: 0rem 0rem -3.9375rem 0rem;
-  }
+    .TitleImage {
+        width: auto;
+        height: auto;
+        margin: 0px 0px -63px 0px;
+        margin: 0rem 0rem -3.9375rem 0rem;
+    }
 }
 
 .RegisterPage .TitleImage {
-  max-width: 428px;
+    max-width: 428px;
 }
 
 .ViewMore {
-  display: block;
-  text-align: center;
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  margin: 0.5em 0 0 0;
-  color: #1c2834;
+    display: block;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    margin: 0.5em 0 0 0;
+    color: #1c2834;
 }
 
 @media (min-width: 600px) {
-  .ViewMore {
-    left: 47%;
-    width: 10em;
-    margin: 0;
-  }
+    .ViewMore {
+        left: 47%;
+        width: 10em;
+        margin: 0;
+    }
 }
 
 .ViewMore:hover {
-  color: #882a28;
+    color: #882a28;
 }
 
 .ViewMore:active {
-  margin: 0;
-  color: #000;
+    margin: 0;
+    color: #000;
 }
 
 @media (min-width: 600px) {
-  .ViewMore:active {
-    margin: -0.5em 0 0 0;
-  }
+    .ViewMore:active {
+        margin: -0.5em 0 0 0;
+    }
 }
 
 .MoreImg {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 @media (min-width: 600px) {
-  .MoreImg {
-    vertical-align: top;
-  }
+    .MoreImg {
+        vertical-align: top;
+    }
 }
 
 /* !ENDMODULE = TitleZone */
 /* !MODULE = SliderZone */
 .SliderZone {
-  display: none;
+    display: none;
 }
 
 /*temporary*/
 /* !ENDMODULE = TitleZone */
 /* !MODULE = Content Generic */
 .Content {
-  background: #e4e0cf url("../img/bg-pattern-page.png") left top repeat;
+    background: #e4e0cf url("../img/bg-pattern-page.png") left top repeat;
 }
 
 .State-Casino .Content {
-  background-image: none;
+    background-image: none;
 }
 
 .ContentWrapper {
-  padding: 60px 0px 0px 0px;
-  padding: 3.75rem 0rem 0rem 0rem;
-  background: transparent url("../img/bg-contenttop.png") center top no-repeat;
+    padding: 60px 0px 0px 0px;
+    padding: 3.75rem 0rem 0rem 0rem;
+    background: transparent url("../img/bg-contenttop.png") center top no-repeat;
 }
 
 @media (min-width: 480px) {
-  .ContentWrapper {
-    padding: 80px 0px 0px 0px;
-    padding: 5rem 0rem 0rem 0rem;
-  }
+    .ContentWrapper {
+        padding: 80px 0px 0px 0px;
+        padding: 5rem 0rem 0rem 0rem;
+    }
 }
 
 @media (min-width: 1824px) {
-  .ContentWrapper {
-    background-size: 100% auto;
-  }
+    .ContentWrapper {
+        background-size: 100% auto;
+    }
 }
 
 .ContentWrapper2 {
-  padding: 0px 0px 90px 0px;
-  padding: 0rem 0rem 5.625rem 0rem;
-  background: transparent url("../img/bg-contentbottom.png") center bottom no-repeat;
+    padding: 0px 0px 90px 0px;
+    padding: 0rem 0rem 5.625rem 0rem;
+    background: transparent url("../img/bg-contentbottom.png") center bottom no-repeat;
 }
 
 @media (min-width: 480px) {
-  .ContentWrapper2 {
-    padding: 0px 8px 90px 8px;
-    padding: 0rem 0.5rem 5.625rem 0.5rem;
-  }
+    .ContentWrapper2 {
+        padding: 0px 8px 90px 8px;
+        padding: 0rem 0.5rem 5.625rem 0.5rem;
+    }
 }
 
 @media (min-width: 1025px) {
-  .ContentWrapper2 {
-    padding-left: 266px;
-  }
+    .ContentWrapper2 {
+        padding-left: 266px;
+    }
 }
 
 @media (min-width: 1824px) {
-  .ContentWrapper2 {
-    padding: 0px 24px 90px 274px;
-    padding: 0rem 1.5rem 5.625rem 17.125rem;
-    background-size: 100% auto;
-  }
+    .ContentWrapper2 {
+        padding: 0px 24px 90px 274px;
+        padding: 0rem 1.5rem 5.625rem 17.125rem;
+        background-size: 100% auto;
+    }
 }
 
 @media (min-width: 1025px) {
-  .NoBrowse .ContentWrapper2 {
-    padding-left: 0.5em;
-  }
+    .NoBrowse .ContentWrapper2 {
+        padding-left: 0.5em;
+    }
 }
 
 @media (min-width: 1824px) {
-  .NoBrowse .ContentWrapper2 {
-    padding-left: 1.5em;
-  }
+    .NoBrowse .ContentWrapper2 {
+        padding-left: 1.5em;
+    }
 }
 
 .PageSubtitle {
-  font-size: 52px;
-  font-size: 3.25rem;
-  line-height: 1em;
+    font-size: 52px;
+    font-size: 3.25rem;
+    line-height: 1em;
 }
 
 .PageSubtitle strong {
-  color: #882a28;
-  text-transform: uppercase;
+    color: #882a28;
+    text-transform: uppercase;
 }
 
 .P {
-  display: block;
-  margin: 0.75em 0;
+    display: block;
+    margin: 0.75em 0;
 }
 
 /* !ENDMODULE = Content Generic */
 /* !MODULE = Registration Page */
 .RegistrationSteps {
-  display: block;
-  max-width: 1100px;
-  max-width: 68.75rem;
-  margin: 0 auto 1em auto;
-  background: #ff9902;
-  line-height: 1em;
+    display: block;
+    max-width: 1100px;
+    max-width: 68.75rem;
+    margin: 0 auto 1em auto;
+    background: #ff9902;
+    line-height: 1em;
 }
 
 @media (min-width: 480px) {
-  .RegistrationSteps {
-    margin: 0 auto;
-    padding: 0 0 1em 0;
-    background: transparent url("../img/bg-register-progress.png") center center no-repeat;
-    background-size: 100% auto;
-    line-height: 1.5em;
-  }
+    .RegistrationSteps {
+        margin: 0 auto;
+        padding: 0 0 1em 0;
+        background: transparent url("../img/bg-register-progress.png") center center no-repeat;
+        background-size: 100% auto;
+        line-height: 1.5em;
+    }
 }
 
 .RegStep {
-  display: block;
-  float: left;
-  width: 33.3333%;
-  padding: 1em 0;
-  color: #fff;
+    display: block;
+    float: left;
+    width: 33.3333%;
+    padding: 1em 0;
+    color: #fff;
 }
 
 @media (min-width: 480px) {
-  .RegStep {
-    color: inherit;
-  }
+    .RegStep {
+        color: inherit;
+    }
 }
 
 .CurrentStep, .CompletedStep {
-  background: #1c2834;
+    background: #1c2834;
 }
 
 @media (min-width: 480px) {
-  .CurrentStep, .CompletedStep {
-    background: transparent;
-  }
+    .CurrentStep, .CompletedStep {
+        background: transparent;
+    }
 }
 
 .StepContainer {
-  display: none;
-  float: left;
-  width: 1.6em;
-  height: 1.6em;
-  margin: 0 auto;
-  background: #ff9902;
-  color: #fff;
-  border: 0.2em solid #fff;
-  font-size: 40px;
-  font-size: 2.5rem;
-  line-height: 1em;
-  line-height: 1.6em;
-  border-radius: 50%;
-  box-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    width: 1.6em;
+    height: 1.6em;
+    margin: 0 auto;
+    background: #ff9902;
+    color: #fff;
+    border: 0.2em solid #fff;
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 1em;
+    line-height: 1.6em;
+    border-radius: 50%;
+    box-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 480px) {
-  .StepContainer {
-    display: block;
-    float: none;
-  }
+    .StepContainer {
+        display: block;
+        float: none;
+    }
 }
 
 @media (min-width: 1025px) {
-  .StepContainer {
-    margin: 1em auto 0 auto;
-  }
+    .StepContainer {
+        margin: 1em auto 0 auto;
+    }
 }
 
 @media (min-width: 1025px) {
-  .RegStepTwo .StepContainer {
-    margin: 0.5em auto 0 auto;
-  }
+    .RegStepTwo .StepContainer {
+        margin: 0.5em auto 0 auto;
+    }
 }
 
 .CurrentStep .StepContainer, .CompletedStep .StepContainer {
-  background: #1c2834 center center no-repeat;
-  background-size: 100% auto;
+    background: #1c2834 center center no-repeat;
+    background-size: 100% auto;
 }
 
 @media (min-width: 1025px) {
-  .CurrentStep .StepContainer, .CompletedStep .StepContainer {
-    width: 3.4em;
-    height: 3.4em;
-    margin: 0 auto;
-    position: relative;
-  }
+    .CurrentStep .StepContainer, .CompletedStep .StepContainer {
+        width: 3.4em;
+        height: 3.4em;
+        margin: 0 auto;
+        position: relative;
+    }
 }
 
 .RegStepOne.CurrentStep .StepContainer, .RegStepOne.CompletedStep .StepContainer {
-  background-image: url("../img/bg-regstep-1.png");
+    background-image: url("../img/bg-regstep-1.png");
 }
 
 .RegStepTwo.CurrentStep .StepContainer, .RegStepTwo.CompletedStep .StepContainer {
-  background-image: url("../img/bg-regstep-2.png");
+    background-image: url("../img/bg-regstep-2.png");
 }
 
 .RegStepThree.CurrentStep .StepContainer, .RegStepThree.CompletedStep .StepContainer {
-  background-image: url("../img/bg-regstep-3.png");
+    background-image: url("../img/bg-regstep-3.png");
 }
 
 .StepNumber {
-  display: block;
-  width: 1.6em;
-  height: 1.6em;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 50%;
-  box-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.18);
+    display: block;
+    width: 1.6em;
+    height: 1.6em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.18);
 }
 
 .StepString {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
 }
 
 @media (min-width: 480px) {
-  .CurrentStep .StepString {
-    display: none;
-  }
+    .CurrentStep .StepString {
+        display: none;
+    }
 }
 
 @media (min-width: 1025px) {
-  .CurrentStep .StepString {
-    display: block;
-    padding: 0.15em 0 0 0;
-    font-size: 36px;
-    font-size: 2.25rem;
-    line-height: 1em;
-  }
+    .CurrentStep .StepString {
+        display: block;
+        padding: 0.15em 0 0 0;
+        font-size: 36px;
+        font-size: 2.25rem;
+        line-height: 1em;
+    }
 }
 
 @media (min-width: 480px) {
-  .CompletedStep .StepString {
-    display: none;
-  }
+    .CompletedStep .StepString {
+        display: none;
+    }
 }
 
 .StepNumber .icon {
-  display: none;
-  position: relative;
-  top: 0.5em;
-  left: 0.5em;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
+    display: none;
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1em;
 }
 
 @media (min-width: 1025px) {
-  .CompletedStep .icon {
-    display: block;
-  }
+    .CompletedStep .icon {
+        display: block;
+    }
 }
 
 .CurrentStep .StepNumber, .CompletedStep .StepNumber {
-  font-weight: normal;
-  /*@media (min-width: 480px) { text-indent: 100%; white-space: nowrap; overflow: hidden; }*/
+    font-weight: normal;
+    /*@media (min-width: 480px) { text-indent: 100%; white-space: nowrap; overflow: hidden; }*/
 }
 
 @media (min-width: 1025px) {
-  .CurrentStep .StepNumber, .CompletedStep .StepNumber {
-    display: block;
-    width: 1.15em;
-    height: 1.15em;
-    background-color: #2a7b73;
-    position: absolute;
-    bottom: -0.25em;
-    right: -0.25em;
-  }
+    .CurrentStep .StepNumber, .CompletedStep .StepNumber {
+        display: block;
+        width: 1.15em;
+        height: 1.15em;
+        background-color: #2a7b73;
+        position: absolute;
+        bottom: -0.25em;
+        right: -0.25em;
+    }
 }
 
 .RegLabel {
-  display: block;
-  padding: 0 0.25em;
-  overflow: hidden;
-  text-align: center;
-  font-weight: normal;
-  text-overflow: ellipsis;
+    display: block;
+    padding: 0 0.25em;
+    overflow: hidden;
+    text-align: center;
+    font-weight: normal;
+    text-overflow: ellipsis;
 }
 
 @media (min-width: 480px) {
-  .RegLabel {
-    display: none;
-  }
+    .RegLabel {
+        display: none;
+    }
 }
 
 @media (min-width: 1025px) {
-  .RegLabel {
-    display: block;
-    padding: 0;
-    overflow: visible;
-    clear: both;
-  }
+    .RegLabel {
+        display: block;
+        padding: 0;
+        overflow: visible;
+        clear: both;
+    }
 }
 
 .CurrentStep .RegLabel {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .RegisterFormContainer, .FocusedContent {
-  display: block;
-  margin: 0 auto;
-  max-width: 736px;
-  max-width: 46rem;
+    display: block;
+    margin: 0 auto;
+    max-width: 736px;
+    max-width: 46rem;
 }
 
 .RegisterMenu {
-  display: block;
+    display: block;
 }
 
 @media (min-width: 480px) {
-  .RegisterMenu {
-    float: left;
-    width: 4.5em;
-  }
+    .RegisterMenu {
+        float: left;
+        width: 4.5em;
+    }
 }
 
 .RegisterMenu .MenuItem {
-  display: block;
-  float: left;
-  background: transparent;
+    display: block;
+    float: left;
+    background: transparent;
 }
 
 @media (min-width: 480px) {
-  .RegisterMenu .MenuItem {
-    float: none;
-  }
+    .RegisterMenu .MenuItem {
+        float: none;
+    }
 }
 
 .RegisterMenu .MenuLink {
-  padding: 18px;
-  padding: 1.125rem;
-  margin: 0px 10px 0px 0px;
-  margin: 0rem 0.625rem 0rem 0rem;
-  background-color: #ff9902;
-  color: #fff;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    padding: 18px;
+    padding: 1.125rem;
+    margin: 0px 10px 0px 0px;
+    margin: 0rem 0.625rem 0rem 0rem;
+    background-color: #ff9902;
+    color: #fff;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 480px) {
-  .RegisterMenu .MenuLink {
-    padding: 24px;
-    padding: 1.5rem;
-    margin: 0px 0px 2px 0px;
-    margin: 0rem 0rem 0.125rem 0rem;
-  }
+    .RegisterMenu .MenuLink {
+        padding: 24px;
+        padding: 1.5rem;
+        margin: 0px 0px 2px 0px;
+        margin: 0rem 0rem 0.125rem 0rem;
+    }
 }
 
 .CurrentStep .MenuLink {
-  background-color: #1c2834;
+    background-color: #1c2834;
 }
 
 .RegisterMenu .ButtonText {
-  display: none;
-  text-align: center;
+    display: none;
+    text-align: center;
 }
 
 .RegisterMenu .CurrentStep .ButtonText {
-  /*display : block; width : 6em; height : 1.5em; -ms-transform : rotate(270deg); -moz-transform : rotate(270deg); -webkit-transform : rotate(270deg); -o-transform : rotate(270deg);*/
+    /*display : block; width : 6em; height : 1.5em; -ms-transform : rotate(270deg); -moz-transform : rotate(270deg); -webkit-transform : rotate(270deg); -o-transform : rotate(270deg);*/
 }
 
 .RegisterMenu .icon {
-  display: block;
-  font-size: 2em;
-  line-height: 1em;
-  text-shadow: 0.15em 0.15em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    font-size: 2em;
+    line-height: 1em;
+    text-shadow: 0.15em 0.15em 0 rgba(0, 0, 0, 0.3);
 }
 
 .RegisterForm {
-  padding: 0.5em;
-  position: relative;
-  overflow: hidden;
-  background: #364a61 url("../img/bg-pattern-form.png") left top repeat;
-  color: #7e97b3;
-  border: 1px solid #1c2834;
-  box-shadow: 1em 1em 0 rgba(0, 0, 0, 0.3);
+    padding: 0.5em;
+    position: relative;
+    overflow: hidden;
+    background: #364a61 url("../img/bg-pattern-form.png") left top repeat;
+    color: #7e97b3;
+    border: 1px solid #1c2834;
+    box-shadow: 1em 1em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 480px) {
-  .RegisterForm {
-    padding: 1em;
-    border: 1em solid #1c2834;
-  }
+    .RegisterForm {
+        padding: 1em;
+        border: 1em solid #1c2834;
+    }
 }
 
 @media (min-width: 1025px) {
-  .RegisterForm {
-    padding: 36px 88px;
-    padding: 2.25rem 5.5rem;
-  }
+    .RegisterForm {
+        padding: 36px 88px;
+        padding: 2.25rem 5.5rem;
+    }
 }
 
 .RegisterForm fieldset {
-  padding: 0;
+    padding: 0;
 }
 
 @media (min-width: 480px) {
-  .RegisterForm fieldset {
-    padding: 0px 18px;
-    padding: 0rem 1.125rem;
-  }
+    .RegisterForm fieldset {
+        padding: 0px 18px;
+        padding: 0rem 1.125rem;
+    }
 }
 
 .RegisterForm .Input, .RegisterForm .InputSelect, .RegisterForm .InputTextarea {
-  width: 90%;
+    width: 90%;
 }
 
 @media (min-width: 480px) {
-  .RegisterForm .Input, .RegisterForm .InputSelect, .RegisterForm .InputTextarea {
-    width: 100%;
-    margin: 0 -1em;
-  }
+    .RegisterForm .Input, .RegisterForm .InputSelect, .RegisterForm .InputTextarea {
+        width: 100%;
+        margin: 0 -1em;
+    }
 }
 
 @media (min-width: 480px) {
-  .RegisterForm .FormLeftItem .InputSelect {
-    width: 85%;
-    padding: 1em 0;
-  }
+    .RegisterForm .FormLeftItem .InputSelect {
+        width: 85%;
+        padding: 1em 0;
+    }
 }
 
 @media (min-width: 780px) {
-  .RegisterForm .FormLeftItem .InputSelect {
-    width: 60%;
-    padding: 1em;
-  }
+    .RegisterForm .FormLeftItem .InputSelect {
+        width: 60%;
+        padding: 1em;
+    }
 }
 
 .RegisterForm .InputError {
-  margin: 0 -1.125em;
-  padding: 0.5em 1.125em;
-  background: #ef0000;
-  color: #fff;
+    margin: 0 -1.125em;
+    padding: 0.5em 1.125em;
+    background: #ef0000;
+    color: #fff;
 }
 
 .RegisterForm .buttons {
-  margin: 0;
+    margin: 0;
 }
 
 @media (min-width: 480px) {
-  .RegisterForm .buttons {
-    margin: 0 -1em;
-  }
+    .RegisterForm .buttons {
+        margin: 0 -1em;
+    }
 }
 
 .RegisterForm .FormSubmit {
-  float: right;
-  max-width: 50%;
+    float: right;
+    max-width: 50%;
 }
 
 .RegisterForm .FormBack {
-  float: left;
-  max-width: 40%;
-  margin: 0 0 0 -1em;
-  background-color: #1c2834;
-  color: #fff;
+    float: left;
+    max-width: 40%;
+    margin: 0 0 0 -1em;
+    background-color: #1c2834;
+    color: #fff;
 }
 
 @media (min-width: 1025px) {
-  .RegisterForm .FormBack {
-    margin: 0;
-  }
+    .RegisterForm .FormBack {
+        margin: 0;
+    }
 }
 
 .RegisterForm .Button.disabled {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .RegisterForm .Button.disabled:hover {
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 .MandatoryP {
-  margin: 2em 0 0 0;
-  text-align: center;
+    margin: 2em 0 0 0;
+    text-align: center;
 }
 
 .FormBack .icon {
-  margin: -0.25em 0;
+    margin: -0.25em 0;
 }
 
 /* !ENDMODULE = Registration Page */
 /* !MODULE = Casino Page */
 .CasinoGames {
-  display: block;
+    display: block;
+    width: 80%;
+    float: right;
+}
+
+.Menu.InventoryMenu.hlisting {
+    float: left;
+    width: 19%;
+    margin-right: 1%;
+    clear: left
+
 }
 
 .CasinoControls {
-  display: block;
+    display: block;
 }
 
 .CasinoControl {
-  display: block;
-  float: left;
+    display: block;
+    float: left;
 }
 
 .CasinoLabel {
-  display: block;
-  color: #173b39;
-  font-size: 1.5em;
-  line-height: 1.5em;
+    display: block;
+    color: #173b39;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 .CasinoLabelSymbol {
-  display: block;
-  float: right;
-  width: 1em;
-  height: 1em;
-  margin: 0.2127em 0 0 0;
-  background: #1c2834;
-  color: #fff;
-  font-size: 47px;
-  font-size: 2.9375rem;
-  line-height: 1em;
-  text-align: center;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
+    display: block;
+    float: right;
+    width: 1em;
+    height: 1em;
+    margin: 0.2127em 0 0 0;
+    background: #1c2834;
+    color: #fff;
+    font-size: 47px;
+    font-size: 2.9375rem;
+    line-height: 1em;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 
 .CasinoLabelSymbol .icon {
-  display: block;
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-  right: -0.4em;
-  bottom: -0.4em;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
-  text-align: center;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    right: -0.4em;
+    bottom: -0.4em;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1em;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
 }
 
 .CasinoControl .InputSelect, .CasinoControl .Input {
-  display: block;
-  float: left;
-  width: 5em;
-  padding: 0;
-  color: #882a28;
-  background: #f2f0e7;
-  font-size: 51px;
-  font-size: 3.1875rem;
-  line-height: 1em;
-  font-weight: bold;
-  box-shadow: none;
+    display: block;
+    float: left;
+    width: 5em;
+    padding: 0;
+    color: #882a28;
+    background: #f2f0e7;
+    font-size: 51px;
+    font-size: 3.1875rem;
+    line-height: 1em;
+    font-weight: bold;
+    box-shadow: none;
 }
 
 .CasinoCategoryTitle {
-  display: block;
-  position: relative;
-  z-index: 1;
+    display: block;
+    position: relative;
+    z-index: 1;
 }
 
 .CasinoCategoryLink {
-  display: block;
-  padding: 1em;
-  margin: 1em 0 0 0;
-  position: relative;
-  background: #ffce00;
-  color: #000;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
-  text-align: center;
-  text-transform: uppercase;
+    display: block;
+    padding: 1em;
+    margin: 1em 0 0 0;
+    position: relative;
+    background: #ffce00;
+    color: #000;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @media (min-width: 480px) {
-  .CasinoCategoryLink {
-    margin: 1.5em 0;
-    background: #fff;
-    box-shadow: 0 0.5em 0 rgba(0, 0, 0, 0.3);
-  }
+    .CasinoCategoryLink {
+        margin: 1.5em 0;
+        background: #fff;
+        box-shadow: 0 0.5em 0 rgba(0, 0, 0, 0.3);
+    }
 }
 
 .CasinoCategoryLink:hover {
-  background: #882a28;
-  color: #fff;
-  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.3);
+    background: #882a28;
+    color: #fff;
+    box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.3);
 }
 
 .CasinoCategoryLink:active {
-  background: #161616;
-  color: #fff;
-  box-shadow: inset 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    background: #161616;
+    color: #fff;
+    box-shadow: inset 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 .CasinoGamesList {
-  display: block;
+    display: block;
 }
 
 .CasinoGameItem {
-  display: block;
-  background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: block;
+    height: 209px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 480px) {
-  .CasinoGameItem {
-    float: left;
-    width: 33.3333%;
-    background: transparent;
-    border: none;
-  }
+    .CasinoGameItem {
+        float: left;
+        width: 33.3333%;
+        background: transparent;
+        border: none;
+    }
 }
 
 @media (min-width: 580px) {
-  .CasinoGameItem {
-    width: 25%;
-  }
+    .CasinoGameItem {
+        width: 25%;
+    }
 }
 
 @media (min-width: 768px) {
-  .CasinoGameItem {
-    width: 20%;
-  }
+    .CasinoGameItem {
+        width: 20%;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameItem {
-    width: 260px;
-    width: 16.25rem;
-    margin: 0 1em 1em 0;
-  }
+    .CasinoGameItem {
+        width: 260px;
+        width: 16.25rem;
+        margin: 0 1em 1em 0;
+    }
 }
 
 .CasinoGameContainer {
-  display: block;
-  position: relative;
+    display: block;
+    position: relative;
 }
 
 .CasinoGameThumbLink {
-  display: block;
-  float: left;
-  padding: 0.625em 0.5em;
+    display: block;
+    float: left;
+    padding: 0.625em 0.5em;
 }
 
 @media (min-width: 360px) {
-  .CasinoGameThumbLink {
-    padding-left: 1em;
-  }
+    .CasinoGameThumbLink {
+        padding-left: 1em;
+    }
 }
 
 @media (min-width: 480px) {
-  .CasinoGameThumbLink {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    padding: 0.1666em;
-    position: relative;
-    z-index: 2;
-    background: #fff;
-    box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.3);
-  }
+    .CasinoGameThumbLink {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 0.1666em;
+        position: relative;
+        z-index: 2;
+        background: #fff;
+        box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.3);
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameThumbLink {
-    float: none;
-    padding: 0;
-    box-shadow: none;
-    border-radius: 0;
-  }
+    .CasinoGameThumbLink {
+        float: none;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
 }
 
 @media (min-width: 850px) {
-  .OpenOptions .CasinoGameThumbLink {
-    box-shadow: none;
-    border-radius: 0;
-  }
+    .OpenOptions .CasinoGameThumbLink {
+        box-shadow: none;
+        border-radius: 0;
+    }
 }
 
 .CasinoGameThumbCont {
-  display: block;
-  width: 66px;
-  width: 4.125rem;
-  height: 66px;
-  height: 4.125rem;
-  overflow: hidden;
-  border-radius: 50%;
+    display: block;
+    width: 66px;
+    width: 4.125rem;
+    height: 66px;
+    height: 4.125rem;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameThumbCont {
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-  }
+    .CasinoGameThumbCont {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameThumbCont {
-    width: auto;
-  }
+    .CasinoGameThumbCont {
+        width: auto;
+    }
 }
 
 @media (min-width: 850px) {
-  .OpenOptions .CasinoGameThumbCont {
-    border-radius: 0;
-  }
+    .OpenOptions .CasinoGameThumbCont {
+        border-radius: 0;
+    }
 }
 
 .CasinoGameThumb {
-  display: block;
-  height: 66px;
-  height: 4.125rem;
-  width: auto;
-  margin: 0 -25%;
+    display: block;
+    height: 66px;
+    height: 4.125rem;
+    width: auto;
+    margin: 0 -25%;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameThumb {
-    width: 100%;
-    height: auto;
-    margin: 0;
-  }
+    .CasinoGameThumb {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameThumb {
-    width: auto;
-  }
+    .CasinoGameThumb {
+        width: 100%;
+    }
 }
 
 .CasinoGameProperties {
-  display: none;
-  float: left;
-  width: 17%;
-  height: 5.375em;
-  background: #008884;
-  color: #fff;
+    display: none;
+    float: left;
+    width: 17%;
+    height: 5.375em;
+    background: #008884;
+    color: #fff;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameProperties {
-    display: block;
-    width: 100%;
-    height: 90px;
-    height: 5.625rem;
-    margin: 0;
-    position: absolute;
-    z-index: 3;
-    left: 0;
-    top: 0;
-    background: transparent;
-  }
+    .CasinoGameProperties {
+        display: block;
+        width: 100%;
+        height: 90px;
+        height: 5.625rem;
+        margin: 0;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 0;
+        background: transparent;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameProperties {
-    float: none;
-    height: auto;
-  }
+    .CasinoGameProperties {
+        float: none;
+        height: auto;
+    }
 }
 
 .OpenOptions .CasinoGameProperties {
-  display: block;
+    display: block;
 }
 
 .CasinoGameProperty {
-  display: none;
-  height: auto;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
-  line-height: 1.5em;
-  text-align: center;
-}
-
-@media (min-width: 480px) {
-  .CasinoGameProperty {
-    display: block;
-    float: left;
-    width: 2em;
-    margin: 0 0 0 1em;
-    font-size: 12px;
-    font-size: 0.75rem;
-    line-height: 1em;
-    line-height: 1em;
-    box-shadow: 0.1111em 0.1111em 0 rgba(0, 0, 0, 0.3);
-  }
-}
-
-@media (min-width: 850px) {
-  .CasinoGameProperty {
-    margin: 0 0 0 0.5em;
+    display: none;
+    height: auto;
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 1em;
     line-height: 1.5em;
-  }
+    text-align: center;
+}
+
+@media (min-width: 480px) {
+    .CasinoGameProperty {
+        display: block;
+        float: left;
+        width: 2em;
+        margin: 0 0 0 1em;
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 1em;
+        line-height: 1em;
+        box-shadow: 0.1111em 0.1111em 0 rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (min-width: 850px) {
+    .CasinoGameProperty {
+        margin: 0 0 0 0.5em;
+        font-size: 24px;
+        font-size: 1.5rem;
+        line-height: 1em;
+        line-height: 1.5em;
+    }
 }
 
 /*.CasinoGameItem:hover .CasinoGameProperty, .FavoriteGame .Property-Favorite { opacity: 1; }*/
 .Property-Favorite {
-  display: block;
-  height: auto;
+    display: block;
+    height: auto;
 }
 
 @media (min-width: 480px) {
-  .Property-Favorite {
-    background: #7f7f7f;
-  }
+    .Property-Favorite {
+        background: #7f7f7f;
+    }
 }
 
 @media (min-width: 850px) {
-  .Property-Favorite {
-    visibility: hidden;
-  }
+    .Property-Favorite {
+        visibility: hidden;
+    }
 }
 
 .Property-Hot {
-  background: #882a28;
+    background: #882a28;
 }
 
 .Property-Hot .icon {
-  color: #ef0000;
+    color: #ef0000;
 }
 
 .Property-New {
-  background: #cda801;
+    background: #cda801;
 }
 
 .Property-New .icon {
-  color: #fee600;
+    color: #fee600;
 }
 
 .CasinoGameProperty .icon {
-  display: inline-block;
+    display: inline-block;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameProperty .icon {
-    display: block;
-    float: right;
-    width: 2em;
-    height: auto;
-    line-height: 1.3333em;
-  }
+    .CasinoGameProperty .icon {
+        display: block;
+        float: right;
+        width: 2em;
+        height: auto;
+        line-height: 1.3333em;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameProperty .icon {
-    float: none;
-    width: auto;
-    line-height: 1.5em;
-  }
+    .CasinoGameProperty .icon {
+        float: none;
+        width: auto;
+        line-height: 1.5em;
+    }
 }
 
 .PropertyText, .CasinoGameFav .ButtonText {
-  display: block;
-  clear: both;
-  font-size: 9px;
-  font-size: 0.5625rem;
-  line-height: 1em;
-  padding: 0 0.5em 0 0;
-  line-height: 1.5em;
-  background: rgba(0, 0, 0, 0.3);
-  color: #fff;
-  text-align: right;
-}
-
-@media (min-width: 850px) {
-  .PropertyText, .CasinoGameFav .ButtonText {
-    display: none;
-    padding: 0;
-    font-size: 0.75em;
+    display: block;
+    clear: both;
+    font-size: 9px;
+    font-size: 0.5625rem;
+    line-height: 1em;
+    padding: 0 0.5em 0 0;
     line-height: 1.5em;
-    text-align: center;
-  }
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: right;
 }
 
 @media (min-width: 850px) {
-  .FavoriteGame .ButtonText {
-    color: #173b39;
-  }
+    .PropertyText, .CasinoGameFav .ButtonText {
+        display: none;
+        padding: 0;
+        font-size: 0.75em;
+        line-height: 1.5em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 850px) {
+    .FavoriteGame .ButtonText {
+        color: #173b39;
+    }
 }
 
 .CasinoGameFav {
-  display: block;
-  width: 100%;
-  height: 3.5833em;
-  color: #fff;
-  line-height: 3.5833em;
+    display: block;
+    width: 100%;
+    height: 3.5833em;
+    color: #fff;
+    line-height: 3.5833em;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameFav {
-    height: auto;
-    line-height: 1.5em;
-  }
+    .CasinoGameFav {
+        height: auto;
+        line-height: 1.5em;
+    }
 }
 
 .FavoriteGame .CasinoGameFav {
-  background: #fff;
-  color: #008884;
+    background: #fff;
+    color: #008884;
 }
 
 @media (min-width: 850px) {
-  .FavoriteGame .CasinoGameFav {
-    background: #e2dfce;
-    color: #173b39;
-  }
+    .FavoriteGame .CasinoGameFav {
+        background: #e2dfce;
+        color: #173b39;
+    }
 }
 
 .CasinoGameFav:hover {
-  background: #882a28;
-  color: #fff;
+    background: #882a28;
+    color: #fff;
 }
 
 @media (min-width: 850px) {
-  .CasinoGameFav:hover {
-    background: #173b39;
-  }
+    .CasinoGameFav:hover {
+        background: #173b39;
+    }
 }
 
 .CasinoGameFav:hover .ButtonText {
-  color: inherit;
+    color: inherit;
 }
 
 .CasinoGameFav:active {
-  background: #000;
-  color: #fff;
+    background: #000;
+    color: #fff;
 }
 
 .CasinoGameFav .ButtonText {
-  display: none;
-  /*@media (min-width: 850px) { display: none; }*/
+    display: none;
+    /*@media (min-width: 850px) { display: none; }*/
 }
 
 @media (min-width: 480px) {
-  .CasinoGameFav .ButtonText {
-    display: block;
-  }
+    .CasinoGameFav .ButtonText {
+        display: block;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameItem:hover .PropertyText, .FavoriteGame .CasinoGameFav .ButtonText, .OpenOptions .PropertyText {
-    display: block;
-  }
+    .CasinoGameItem:hover .PropertyText, .FavoriteGame .CasinoGameFav .ButtonText, .OpenOptions .PropertyText {
+        display: block;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameItem:hover .Property-Favorite, .FavoriteGame .Property-Favorite {
-    visibility: visible;
-  }
+    .CasinoGameItem:hover .Property-Favorite, .FavoriteGame .Property-Favorite {
+        visibility: visible;
+    }
 }
 
 .CasinoGameFav .Hideable {
-  display: none;
+    display: none;
 }
 
 .CasinoGameActions {
-  display: none;
-  height: 5.375em;
-  overflow: hidden;
-  background: #008884;
-  color: #fff;
+    display: none;
+    height: 5.375em;
+    overflow: hidden;
+    background: #008884;
+    color: #fff;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameActions {
-    background: rgba(0, 136, 132, 0.8);
-  }
+    .CasinoGameActions {
+        background: rgba(0, 136, 132, 0.8);
+    }
 }
 
 .OpenOptions .CasinoGameActions {
-  display: block;
+    display: block;
 }
 
 @media (min-width: 480px) {
-  .OpenOptions .CasinoGameActions {
-    width: 100%;
-    height: 95px;
-    height: 5.9375rem;
-    position: absolute;
-    z-index: 3;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.75);
-  }
+    .OpenOptions .CasinoGameActions {
+        width: 100%;
+        height: 95px;
+        height: 5.9375rem;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.75);
+    }
 }
 
 @media (min-width: 850px) {
-  .OpenOptions .CasinoGameActions {
-    height: 209px;
-    height: 13.0625rem;
-    top: 0;
-    overflow: visible;
-  }
+    .OpenOptions .CasinoGameActions {
+        height: 209px;
+        height: 13.0625rem;
+        top: 0;
+        overflow: visible;
+    }
 }
 
 .CasinoGameAction {
-  display: block;
-  float: left;
-  width: 33.3333%;
-  text-align: center;
+    display: block;
+    float: left;
+    width: 33.3333%;
+    text-align: center;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameAction {
-    width: 50%;
-  }
+    .CasinoGameAction {
+        width: 33%;
+    }
 }
 
 @media (min-width: 480px) {
-  .Action-PlayReal {
-    float: none;
-    clear: both;
-    width: auto;
-  }
+    .Action-PlayReal {
+        float: none;
+        clear: both;
+        width: auto;
+    }
 }
 
 @media (min-width: 850px) {
-  .Action-PlayReal {
-    padding: 1em;
-  }
+    .Action-PlayReal {
+        padding: 1em;
+    }
 }
 
 .CasinoActionLink {
-  display: block;
-  height: 3.5833em;
-  color: #fff;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
-  line-height: 3.5833em;
-}
-
-@media (min-width: 480px) {
-  .CasinoActionLink {
-    height: auto;
-    padding: 0.1666em 0;
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1em;
-    line-height: 1.5em;
-  }
-}
-
-@media (min-width: 850px) {
-  .CasinoActionLink {
-    min-width: 2em;
-    padding: 0.3333em;
+    display: block;
+    height: 3.5833em;
+    color: #fff;
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 1em;
-    line-height: 1.5em;
-  }
+    line-height: 3.5833em;
+}
+
+@media (min-width: 480px) {
+    .CasinoActionLink {
+        height: auto;
+        padding: 0.1666em 0;
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1em;
+        line-height: 1.5em;
+    }
+}
+
+@media (min-width: 850px) {
+    .CasinoActionLink {
+        min-width: 2em;
+        padding: 0.3333em;
+        font-size: 24px;
+        font-size: 1.5rem;
+        line-height: 1em;
+        line-height: 1.5em;
+    }
 }
 
 .CasinoActionLink:hover {
-  background: #882a28;
-  color: #fff;
+    background: #882a28;
+    color: #fff;
 }
 
 .CasinoActionLink:active {
-  background: #000;
-  color: #fff;
+    background: #000;
+    color: #fff;
 }
 
 .Action-PlayReal .CasinoActionLink {
-  padding: 0.3333em 0;
+    padding: 0.3333em 0;
 }
 
 @media (min-width: 850px) {
-  .Action-PlayReal .CasinoActionLink {
-    padding: 1em;
-    background: #26615c;
-    color: #fff;
-  }
+    .Action-PlayReal .CasinoActionLink {
+        padding: 1em;
+        background: #26615c;
+        color: #fff;
+    }
 }
 
 @media (min-width: 850px) {
-  .Action-PlayReal .CasinoActionLink:hover {
-    background: #ffce00;
-    color: #000;
-  }
+    .Action-PlayReal .CasinoActionLink:hover {
+        background: #ffce00;
+        color: #000;
+    }
 }
 
 @media (min-width: 850px) {
-  .Action-PlayReal .CasinoActionLink:active {
-    background: #882a28;
-    color: #fff;
-  }
+    .Action-PlayReal .CasinoActionLink:active {
+        background: #882a28;
+        color: #fff;
+    }
 }
 
 @media (min-width: 480px) {
-  .CasinoActionLink .icon {
-    display: block;
-    margin: 0.2em auto;
-  }
+    .CasinoActionLink .icon {
+        display: block;
+        margin: 0.2em auto;
+    }
 }
 
 .Action-PlayReal .icon {
-  display: block;
-  padding: 0.5416em;
-  margin: 0 auto;
-  background: #009b96;
-  border-radius: 50%;
-  box-shadow: 0.1666em 0.1666em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 0.5416em;
+    margin: 0 auto;
+    background: #009b96;
+    border-radius: 50%;
+    box-shadow: 0.1666em 0.1666em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 850px) {
-  .Action-PlayReal .icon {
-    padding: 0;
-    background: transparent;
-    color: inherit;
-    font-size: 52px;
-    font-size: 3.25rem;
-    line-height: 1em;
-    border-radius: 0;
-    box-shadow: none;
-  }
+    .Action-PlayReal .icon {
+        padding: 0;
+        background: transparent;
+        color: inherit;
+        font-size: 52px;
+        font-size: 3.25rem;
+        line-height: 1em;
+        border-radius: 0;
+        box-shadow: none;
+    }
 }
 
 .CasinoActionLink .ButtonText {
-  display: none;
-  font-size: 9px;
-  font-size: 0.5625rem;
-  line-height: 1em;
-  line-height: 1.1em;
+    display: none;
+    font-size: 9px;
+    font-size: 0.5625rem;
+    line-height: 1em;
+    line-height: 1.1em;
 }
 
 @media (min-width: 480px) {
-  .CasinoActionLink .ButtonText {
-    display: block;
-  }
+    .CasinoActionLink .ButtonText {
+        display: block;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoActionLink .ButtonText {
-    color: inherit;
-  }
+    .CasinoActionLink .ButtonText {
+        color: inherit;
+    }
 }
 
 .Action-PlayReal .ButtonText {
-  display: block;
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1em;
-  line-height: 1.1em;
+    display: block;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 1em;
+    line-height: 1.1em;
 }
 
 @media (min-width: 850px) {
-  .Action-PlayReal .ButtonText {
-    color: inherit;
-    line-height: 1em;
-    font-weight: bold;
-  }
+    .Action-PlayReal .ButtonText {
+        color: inherit;
+        line-height: 1em;
+        font-weight: bold;
+    }
 }
 
 .CasinoGameTitle {
-  display: block;
-  height: 50px;
-  height: 3.125rem;
-  padding: 1.5em 0.25em;
-  color: #1c2834;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1em;
+    display: block;
+    height: 50px;
+    height: 3.125rem;
+    padding: 1.5em 0.25em;
+    color: #1c2834;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 1em;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameTitle {
-    clear: both;
-    height: auto;
-    padding: 0.5em 0.25em;
-  }
+    .CasinoGameTitle {
+        clear: both;
+        height: auto;
+        padding: 0.5em 0.25em;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameTitle {
-    height: auto;
-    margin: 0.25em 0 0 0;
-    padding: 0.5em;
-    position: relative;
-    z-index: 2;
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1em;
-    background: #1c2834;
-    color: #fff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+    .CasinoGameTitle {
+        height: auto;
+        margin: 0.25em 0 0 0;
+        padding: 0.5em;
+        position: relative;
+        z-index: 2;
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1em;
+        background: #1c2834;
+        color: #fff;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
 
 .CasinoGameTitle:hover, .CasinoGameTitle:hover .CasinoGameName {
-  color: #882a28;
+    color: #882a28;
 }
 
 @media (min-width: 850px) {
-  .CasinoGameTitle:hover, .CasinoGameTitle:hover .CasinoGameName {
-    background: #882a28;
-    color: #fff;
-  }
+    .CasinoGameTitle:hover, .CasinoGameTitle:hover .CasinoGameName {
+        background: #882a28;
+        color: #fff;
+    }
 }
 
 .CasinoGameTitle:active, .CasinoGameTitle:active .CasinoGameName {
-  color: #000;
+    color: #000;
 }
 
 @media (min-width: 850px) {
-  .CasinoGameTitle:active, .CasinoGameTitle:active .CasinoGameName {
-    background: #000;
-    color: #fff;
-  }
+    .CasinoGameTitle:active, .CasinoGameTitle:active .CasinoGameName {
+        background: #000;
+        color: #fff;
+    }
 }
 
 .OpenOptions .CasinoGameTitle {
-  display: none;
+    display: none;
 }
 
 @media (min-width: 480px) {
-  .OpenOptions .CasinoGameTitle {
-    display: block;
-  }
+    .OpenOptions .CasinoGameTitle {
+        display: block;
+    }
 }
 
 .CasinoGameTitle .icon {
-  display: block;
-  float: right;
-  height: 4.1666em;
-  padding: 0 0.25em;
-  color: #666;
-  line-height: 4.1666em;
+    display: block;
+    float: right;
+    height: 4.1666em;
+    padding: 0 0.25em;
+    color: #666;
+    line-height: 4.1666em;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameTitle .icon {
-    display: none;
-  }
+    .CasinoGameTitle .icon {
+        display: none;
+    }
 }
 
 .CasinoGameName {
-  display: block;
-  color: #000;
-  line-height: 1.5em;
-  font-weight: bold;
+    display: block;
+    color: #000;
+    line-height: 1.5em;
+    font-weight: bold;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameName {
-    padding: 0 0.5em;
-    text-align: left;
-  }
+    .CasinoGameName {
+        padding: 0 0.5em;
+        text-align: left;
+    }
 }
 
 @media (min-width: 850px) {
-  .CasinoGameName {
-    padding: 0;
-    line-height: 1em;
-    font-weight: normal;
-    color: inherit;
-  }
+    .CasinoGameName {
+        padding: 0;
+        line-height: 1em;
+        font-weight: normal;
+        color: inherit;
+    }
 }
 
 .CasinoGameDescription {
-  display: block;
+    display: block;
 }
 
 @media (min-width: 480px) {
-  .CasinoGameDescription {
-    display: none;
-  }
+    .CasinoGameDescription {
+        display: none;
+    }
 }
 
 .CasinoGamesMore {
-  display: block;
-  width: 100%;
-  padding: 1em 0;
-  background: #fff;
-  color: #ff9902;
-}
-
-@media (min-width: 850px) {
-  .CasinoGamesMore {
-    float: left;
-    width: 260px;
-    width: 16.25rem;
-    height: 209px;
-    height: 13.0625rem;
-    margin: 0 1em 1em 0;
-    padding: 0;
-    color: #1c2834;
-  }
-}
-
-@media (min-width: 850px) {
-  .CasinoGamesMore:hover {
-    background: #008884;
-    color: #fff;
-  }
-}
-
-@media (min-width: 850px) {
-  .MoreSymbol {
     display: block;
-    width: 1.5em;
-    height: 1.5em;
-    margin: 0.5em auto;
-    background: #ff9902 url("../img/bg-pattern-diagonal.png") left top repeat;
-    color: #fff;
-    font-size: 52px;
-    font-size: 3.25rem;
-    line-height: 1em;
-  }
+    width: 100%;
+    padding: 1em 0;
+    background: #fff;
+    color: #ff9902;
 }
 
 @media (min-width: 850px) {
-  .CasinoGamesMore:hover .MoreSymbol {
-    background-color: #245854;
-    color: #fff;
-  }
+    .CasinoGamesMore {
+        float: left;
+        width: 260px;
+        width: 16.25rem;
+        height: 209px;
+        height: 13.0625rem;
+        margin: 0 1em 1em 0;
+        padding: 0;
+        color: #1c2834;
+    }
 }
 
 @media (min-width: 850px) {
-  .MoreSymbol .icon {
-    display: block;
-    width: auto;
-    height: 1.5em;
-    text-align: center;
-    line-height: 1.5em;
-  }
+    .CasinoGamesMore:hover {
+        background: #008884;
+        color: #fff;
+    }
+}
+
+@media (min-width: 850px) {
+    .MoreSymbol {
+        display: block;
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0.5em auto;
+        background: #ff9902 url("../img/bg-pattern-diagonal.png") left top repeat;
+        color: #fff;
+        font-size: 52px;
+        font-size: 3.25rem;
+        line-height: 1em;
+    }
+}
+
+@media (min-width: 850px) {
+    .CasinoGamesMore:hover .MoreSymbol {
+        background-color: #245854;
+        color: #fff;
+    }
+}
+
+@media (min-width: 850px) {
+    .MoreSymbol .icon {
+        display: block;
+        width: auto;
+        height: 1.5em;
+        text-align: center;
+        line-height: 1.5em;
+    }
 }
 
 .SocialArea {
-  display: none;
+    display: none;
 }
 
 .TopWinners {
-  display: none;
+    display: none;
 }
 
 .Promotions {
-  display: none;
+    display: none;
 }
 
 .Jackpots {
-  display: none;
+    display: none;
 }
 
 /* !ENDMODULE = Casino Page */
 /* !MODULE = Footer */
 .Footer {
-  display: block;
-  clear: both;
-  position: relative;
-  z-index: 0;
+    display: block;
+    clear: both;
+    position: relative;
+    z-index: 0;
 }
 
 .ScrollUp {
-  display: block;
-  width: 5em;
-  position: absolute;
-  right: 0;
-  top: -5em;
-  text-align: center;
+    display: block;
+    width: 5em;
+    position: absolute;
+    right: 0;
+    top: -5em;
+    text-align: center;
 }
 
 .ScrollUp .icon {
-  display: block;
-  margin: 0 auto;
-  font-size: 2.3333em;
+    display: block;
+    margin: 0 auto;
+    font-size: 2.3333em;
 }
 
 .ScrollUp .ButtonText {
-  display: block;
+    display: block;
 }
 
 .FooterDecorator {
-  display: none;
-  float: left;
-  margin: -3em 0;
-  position: relative;
-  z-index: 0;
+    display: none;
+    float: left;
+    margin: -3em 0;
+    position: relative;
+    z-index: 0;
 }
 
 @media (min-width: 640px) {
-  .FooterDecorator {
-    display: block;
-    width: 20%;
-    max-width: 491px;
-    max-width: 30.6875rem;
-    height: auto;
-  }
+    .FooterDecorator {
+        display: block;
+        width: 20%;
+        max-width: 491px;
+        max-width: 30.6875rem;
+        height: auto;
+    }
 }
 
 @media (min-width: 870px) {
-  .FooterDecorator {
-    margin: -5em 0 0 0;
-  }
+    .FooterDecorator {
+        margin: -5em 0 0 0;
+    }
 }
 
 @media (min-width: 1760px) {
-  .FooterDecorator {
-    width: auto;
-    margin: 0;
-    position: absolute;
-    top: -10em;
-  }
+    .FooterDecorator {
+        width: auto;
+        margin: 0;
+        position: absolute;
+        top: -10em;
+    }
 }
 
 .FooterMenu {
-  /*@include flex; @include flexAlign(center); -webkit-flex-flow: row wrap; justify-content: space-around; flex-direction: row;*/
-  display: block;
-  background: #c8a000;
-  color: #161616;
-  border-top: 0.5em solid #e3b600;
-  text-align: center;
+    /*@include flex; @include flexAlign(center); -webkit-flex-flow: row wrap; justify-content: space-around; flex-direction: row;*/
+    display: block;
+    background: #c8a000;
+    color: #161616;
+    border-top: 0.5em solid #e3b600;
+    text-align: center;
 }
 
 @media (min-width: 1760px) {
-  .FooterMenu {
-    padding: 0 24%;
-  }
+    .FooterMenu {
+        padding: 0 24%;
+    }
 }
 
 .FooterMenu .MenuItem {
-  display: block;
+    display: block;
 }
 
 @media (min-width: 480px) {
-  .FooterMenu .MenuItem {
-    float: left;
-    width: 33.3333%;
-  }
+    .FooterMenu .MenuItem {
+        float: left;
+        width: 33.3333%;
+    }
 }
 
 @media (min-width: 870px) {
-  .FooterMenu .MenuItem {
-    width: auto;
-  }
+    .FooterMenu .MenuItem {
+        width: auto;
+    }
 }
 
 @media (min-width: 1760px) {
-  .FooterMenu .MenuItem {
-    display: inline-block;
-    float: none;
-  }
+    .FooterMenu .MenuItem {
+        display: inline-block;
+        float: none;
+    }
 }
 
 .FooterMenu .MenuLink {
-  display: block;
-  padding: 0.5em 1em;
-  position: relative;
-  z-index: 1;
+    display: block;
+    padding: 0.5em 1em;
+    position: relative;
+    z-index: 1;
 }
 
 .PartnersItem .ButtonText {
-  display: block;
-  padding: 0.5em 1em;
-  background: #1e1e1e;
-  color: #fff;
+    display: block;
+    padding: 0.5em 1em;
+    background: #1e1e1e;
+    color: #fff;
 }
 
 .PartnersLogos {
-  background: #1e1e1e;
+    background: #1e1e1e;
 }
 
 .PartnersImage {
-  display: block;
-  width: 90%;
-  max-width: 920px;
-  max-width: 57.5rem;
-  height: auto;
-  margin: 0 auto;
-  padding: 1.5em 5%;
+    display: block;
+    width: 90%;
+    max-width: 920px;
+    max-width: 57.5rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.5em 5%;
 }
 
 .LegalInfo {
-  display: block;
-  width: 90%;
-  max-width: 910px;
-  max-width: 56.875rem;
-  padding: 1.5em 5%;
-  margin: 0 auto;
+    display: block;
+    width: 90%;
+    max-width: 910px;
+    max-width: 56.875rem;
+    padding: 1.5em 5%;
+    margin: 0 auto;
 }
 
 .LegalLogo {
-  display: block;
+    display: block;
 }
 
 @media (min-width: 480px) {
-  .LegalLogo {
-    float: left;
-    margin: 1em 1.5em 1em 0;
-  }
+    .LegalLogo {
+        float: left;
+        margin: 1em 1.5em 1em 0;
+    }
 }
 
 .LegalLogoImage {
-  display: block;
-  width: 100%;
-  max-width: 107px;
-  max-width: 6.6875rem;
-  height: auto;
-  margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 107px;
+    max-width: 6.6875rem;
+    height: auto;
+    margin: 0 auto;
 }
 
 .LegalContent {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .LegalP {
-  display: block;
-  margin: 1em 0;
+    display: block;
+    margin: 1em 0;
 }
 
 /* !ENDMODULE = Footer */
 .TempContent {
-  display: block;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /***********************/
@@ -3693,417 +3704,429 @@ form.SearchForm {
 /* !ENDMODULE = Form inline errors */
 /* !MODULE = Notifications */
 .NotificationRoot {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  max-width: 31.25rem;
-  position: fixed;
-  z-index: 10001;
-  bottom: 0;
-  left: 0;
-  background: #fff;
-  border-top: 1em solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    max-width: 31.25rem;
+    position: fixed;
+    z-index: 10001;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    border-top: 1em solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 625px) {
-  .NotificationRoot {
-    bottom: 2.5em;
-    left: auto;
-    right: 2.5em;
-  }
+    .NotificationRoot {
+        bottom: 2.5em;
+        left: auto;
+        right: 2.5em;
+    }
 }
 
 .NotificationClose {
-  display: block;
-  float: right;
-  font-size: 2em;
+    display: block;
+    float: right;
+    font-size: 2em;
 }
 
 .NotificationClose .icon {
-  display: block;
-  float: right;
-  margin: 0 0 0 0.5em;
-  color: inherit;
+    display: block;
+    float: right;
+    margin: 0 0 0 0.5em;
+    color: inherit;
 }
 
 .NotificationClose .ButtonText {
-  display: none;
-  text-align: right;
+    display: none;
+    text-align: right;
 }
 
 @media (min-width: 480px) {
-  .NotificationClose .ButtonText {
-    display: block;
-  }
+    .NotificationClose .ButtonText {
+        display: block;
+    }
 }
 
 .NotificationCloseAll {
-  padding: 0.5em;
-  color: #161616;
-  font-size: 1em;
+    padding: 0.5em;
+    color: #161616;
+    font-size: 1em;
 }
 
 @media (min-width: 480px) {
-  .NotificationCloseAll {
-    width: 9em;
-  }
+    .NotificationCloseAll {
+        width: 9em;
+    }
 }
 
 .NotificationCloseAll:hover {
-  color: #882a28;
+    color: #882a28;
 }
 
 .NotificationCloseAll:active {
-  color: #ff9902;
+    color: #ff9902;
 }
 
 .NotificationCloseAll .icon {
-  font-size: 2em;
-  margin: -0.1em 0.25em 0 0.25em;
-  color: #882a28;
-  text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.3);
+    font-size: 2em;
+    margin: -0.1em 0.25em 0 0.25em;
+    color: #882a28;
+    text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.3);
 }
 
 .NotificationCloseAll:active .icon {
-  color: inherit;
+    color: inherit;
 }
 
 .NotificationHeader {
-  display: block;
-  padding: 0.5em 1.5em 0 1.5em;
-  text-transform: uppercase;
+    display: block;
+    padding: 0.5em 1.5em 0 1.5em;
+    text-transform: uppercase;
 }
 
 .NotificationContainer {
-  display: block;
-  padding: 0;
-  margin: 0;
-  list-style-position: outside;
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style-position: outside;
 }
 
 .Notification {
-  display: block;
-  list-style-type: none;
-  padding: 0.5em;
-  margin: 1.5em;
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    list-style-type: none;
+    padding: 0.5em;
+    margin: 1.5em;
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 .NotificationCloseOne {
-  float: right;
+    float: right;
 }
 
 .Notification-success {
-  background-color: #008884;
+    background-color: #008884;
 }
 
 .Notification-error {
-  background-color: #882a28;
+    background-color: #882a28;
 }
 
 .Notification-warn {
-  background-color: #c8a000;
+    background-color: #c8a000;
 }
 
 .Notification-notify {
-  background-color: #e2dfce;
+    background-color: #e2dfce;
 }
 
 .NotificationCloseOne .icon {
-  margin: 0;
+    margin: 0;
 }
 
 .Notification-success, .Notification-success .NotificationClose, .Notification-error, .Notification-error .NotificationClose {
-  color: #fff;
+    color: #fff;
 }
 
 .Notification-warn, .Notification-warn .NotificationClose, .Notification-notify, .Notification-notify .NotificationClose {
-  color: #000;
+    color: #000;
 }
 
 .Notification .NotificationCloseOne:hover {
-  color: #000;
+    color: #000;
 }
 
 .Notification-warn .NotificationCloseOne:hover, .Notification-notify .NotificationCloseOne:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .Notification .NotificationCloseOne:active {
-  color: #fece00;
+    color: #fece00;
 }
 
 .NotificationCloseOne .ButtonText {
-  display: none;
+    display: none;
 }
 
 .NotificationContent {
-  display: block;
+    display: block;
 }
 
 @media (min-width: 480px) {
-  .NotificationContent {
-    overflow: hidden;
-  }
+    .NotificationContent {
+        overflow: hidden;
+    }
 }
 
 .NotificationContent .icon {
-  display: none;
-  float: left;
-  padding: 0.5em;
+    display: none;
+    float: left;
+    padding: 0.5em;
 }
 
 @media (min-width: 480px) {
-  .NotificationContent .icon {
-    display: block;
-  }
+    .NotificationContent .icon {
+        display: block;
+    }
 }
 
 .NotificationText {
-  display: block;
-  padding: 0.25em 0;
+    display: block;
+    padding: 0.25em 0;
 }
 
 @media (min-width: 480px) {
-  .NotificationText {
-    overflow: hidden;
-  }
+    .NotificationText {
+        overflow: hidden;
+    }
 }
 
 .NotificationRoot .animate-repeat {
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
 }
 
 .NotificationRoot .ng-enter {
-  opacity: 0;
-  max-height: 0;
+    opacity: 0;
+    max-height: 0;
 }
 
 .NotificationRoot .ng-enter-active {
-  opacity: 1;
-  max-height: 40px;
+    opacity: 1;
+    max-height: 40px;
 }
 
 .NotificationRoot .ng-leave-active {
-  opacity: 0;
-  top: 100%;
+    opacity: 0;
+    top: 100%;
 }
 
 .NotificationRoot.animate-if {
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
 }
 
 .NotificationRoot.ng-enter {
-  opacity: 0;
-  max-height: 0;
+    opacity: 0;
+    max-height: 0;
 }
 
 .NotificationRoot.ng-enter-active {
-  opacity: 1;
-  max-height: 40px;
+    opacity: 1;
+    max-height: 40px;
 }
 
 .NotificationRoot.ng-leave-active {
-  opacity: 0;
+    opacity: 0;
 }
 
 /* !ENDMODULE = Notifications */
 /* !MODULE = Login */
 .LoginDialog .ngdialog-content {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  max-width: 31.25rem;
-  margin: 0 auto;
-  position: relative;
-  top: 3.5em;
-  background: #173b39;
-  color: #26615c;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    max-width: 31.25rem;
+    margin: 0 auto;
+    position: relative;
+    top: 3.5em;
+    background: #173b39;
+    color: #26615c;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0.5em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 480px) {
-  .LoginDialog .ngdialog-content {
-    top: 4em;
-  }
+    .LoginDialog .ngdialog-content {
+        top: 4em;
+    }
 }
 
 @media (min-width: 1024px) {
-  .LoginDialog .ngdialog-content {
-    top: 8.5em;
-  }
+    .LoginDialog .ngdialog-content {
+        top: 8.5em;
+    }
 }
 
 .RegisterPrelude {
-  display: block;
-  padding: 0 1em 1.5em 1em;
+    display: block;
+    padding: 0 1em 1.5em 1em;
 }
 
 @media (min-width: 480px) {
-  .RegisterPrelude {
-    float: right;
-    width: 34.2%;
-    padding: 0 4% 0 0;
-  }
+    .RegisterPrelude {
+        float: right;
+        width: 34.2%;
+        padding: 0 4% 0 0;
+    }
 }
 
 .PopupTitle {
-  display: block;
+    display: block;
 }
 
 .PopupTitle .icon {
-  display: block;
-  float: left;
-  width: 1em;
-  height: 1em;
-  padding: 0.3333em;
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 1em;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+    display: block;
+    float: left;
+    width: 1em;
+    height: 1em;
+    padding: 0.3333em;
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 1em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .PopupTitle .TitleText {
-  display: block;
-  padding: 0.75em 0.5em 0.75em 0;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
+    display: block;
+    padding: 0.75em 0.5em 0.75em 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1em;
 }
 
 .RegisterButton {
-  background-color: #10d1cc;
-  color: #000;
+    background-color: #10d1cc;
+    color: #000;
 }
 
 .RegisterButton .ButtonText {
-  display: block;
+    display: block;
 }
 
 .SigninContainer {
-  display: block;
+    display: block;
 }
 
 @media (min-width: 480px) {
-  .SigninContainer {
-    float: left;
-    width: 61.8%;
-  }
+    .SigninContainer {
+        float: left;
+        width: 61.8%;
+    }
 }
 
 .LoginForm {
-  padding: 0 0 0 1em;
-  margin: 0;
+    padding: 0 0 0 1em;
+    margin: 0;
 }
 
 .LoginForm .Input {
-  width: 80%;
-  padding: 0.5em 1em;
+    width: 80%;
+    padding: 0.5em 1em;
 }
 
 .LoginForm .FormSubmit {
-  width: 80%;
-  padding: 0.5em 1em;
-  margin: 0 0 1.5em 0;
+    width: 80%;
+    padding: 0.5em 1em;
+    margin: 0 0 1.5em 0;
 }
 
 .ForgotPassLink {
-  display: block;
-  margin: 0 0 1em 0;
-  color: #245854;
+    display: block;
+    margin: 0 0 1em 0;
+    color: #245854;
 }
 
 .ngdialog-close {
-  display: block;
-  width: 1em;
-  height: 1em;
-  position: absolute;
-  top: -0.5em;
-  right: 0;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
+    display: block;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1em;
 }
 
 @media (min-width: 500px) {
-  .ngdialog-close {
-    right: -0.5em;
-  }
+    .ngdialog-close {
+        right: -0.5em;
+    }
 }
 
 .ngdialog-close:before {
-  display: block;
-  width: 1em;
-  height: 1em;
-  color: #000;
-  background: #fece00;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1em;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 1em;
+    height: 1em;
+    color: #000;
+    background: #fece00;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.3);
 }
 
 .ngdialog-close:hover:before {
-  background: #fff;
+    background: #fff;
 }
 
 /* !ENDMODULE = Login */
 /* PRINT STYLES */
 @media print {
-  /* generic print styles */
-  * {
-    background: transparent !important;
-    color: black !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    filter: none !important;
-    -ms-filter: none !important;
-  }
-  /* Black prints faster: h5bp.com/s */
-  a, a:visited {
-    color: #444 !important;
-    text-decoration: underline;
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-    font-size: 0.75em;
-  }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
-    content: "";
-  }
-  .ir {
-    text-indent: 0;
-  }
-  pre, blockquote {
-    border: 1px solid #666;
-    page-break-inside: avoid;
-  }
-  thead {
-    display: table-header-group;
-  }
-  tr, img {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
-  }
-  @page {
-    margin: 0.5cm;
-  }
-  p, h2, h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2, h3 {
-    page-break-after: avoid;
-  }
-  /* structural print styles */
+    /* generic print styles */
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+
+    /* Black prints faster: h5bp.com/s */
+    a, a:visited {
+        color: #444 !important;
+        text-decoration: underline;
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+        font-size: 0.75em;
+    }
+
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: "";
+    }
+
+    .ir {
+        text-indent: 0;
+    }
+
+    pre, blockquote {
+        border: 1px solid #666;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr, img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2, h3 {
+        page-break-after: avoid;
+    }
+
+    /* structural print styles */
 }

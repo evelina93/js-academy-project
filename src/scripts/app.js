@@ -14,10 +14,6 @@ var app = angular.module('emJsAcademy', [
         console.error('$stateChangeError', event, toState, toParams, fromState, fromParams)
     });
 
-    emWebApi.call('/user/account#getCountries').then(function (list) {
-        console.log('here are the language list', list)
-    }, function(err){
-        console.log('err', err)
-    })
+
 });
 window.global = {};
